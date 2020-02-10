@@ -1,6 +1,6 @@
 package cpsc2150.connectX;
 
-public class GameScreen {
+public abstract class GameScreen {
     private GameBoard gameBoard;
     /**
      * @invariant player 'X' always goes first
@@ -10,62 +10,88 @@ public class GameScreen {
 
 
     /**
+     * @post runs GameBoard constructor to create gameBoard
+     * @post GameScreen instance is in a usable state
+     */
+    public GameScreen();
+
+
+    /**
+     * @pre checkWin and checkTie have both been run, returned false
+     * @pre within while loop containing haveTurn()
      * @post active player, stored in char player, is switched from 'X' to 'O'
      *          or vice-versa.
      */
-    public void switchPlayer();
+    public abstract void switchPlayer();
+
 
     /**
+     * @pre within while loop containing haveTurn()
      * @post gets a character representing the active player symbol
      * @return char of the active player symbol
      */
-    public char whoseTurn();
+    public abstract char whoseTurn();
+
 
     /**
+     * @pre within while loop containing haveTurn()
      * @post prompts user for column
      * @return int of column number inputted by active player
      */
-    public int askForCol();
+    public abstract int askForCol();
+
 
     /**
-     * @pre 0 <= c <= 6
+     * @pre within while loop containing haveTurn()
+     * @pre assume column index return from askForCol() is valid (0 <= c <= 6)
      * @param c column to put the marker
      *
      */
-    private void placeToken(int c);
+    public abstract void placeToken(int c);
+
 
     /**
+     * @pre while loop was started with flag variable
+     * @pre haveTurn() function is the primary code within the while loop
      * @post askForCol -> placeToken -> checkWin -> checkTie -> switchPlayer
+     * @return 0 if loop should continue, 1 if win occured, 2 if tie occured
      */
-    public void haveTurn();
+    public abstract int haveTurn();
 
 
     /**
-     * @pre client enters either int 1 or 2 as the function argument
+     * @pre haveTurn() loop has ended, and either 1 or 2 was returned for choice
      * @param choice signals outcome of game - 1: game win // 2: game tie
      * @post outputs outcome of the game, and asks if you want to play again
      */
-    public void endgameSequence(int choice);
+    public abstract void endgameSequence(int choice);
+
 
     /**
+     * @pre within while loop containing haveTurn()
+     * @pre placeToken was just run before call
      * @param c column where last token was placed
      * @post run board.CheckForWin(c)
      * @return true if win conditions are met, false if game should continue
      */
-    public boolean checkWin(int c);
+    public abstract boolean checkWin(int c);
+
 
     /**
-     *
+     * @pre haveTurn() loop is active
+     * @pre placeToken() was just run before call
      * @post run board.checkTie()
      * @return true if no spaces left, false if there are spots left
      */
-    public boolean checkTie();
+    public abstract boolean checkTie();
 
 
     /**
+     * @pre haveTurn() loop has ended
+     * @pre endgameSequence function is being run
      * @post re-initialize board to all empty spaces, set player to "X", haveTurn()
      */
-    public void restart();
+    public abstract void restart();
 
 
 

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00b11fc4-129e-4e7e-bd7e-f9a1b981eff1" name="Default Changelist" comment="" />
+    <list default="true" id="00b11fc4-129e-4e7e-bd7e-f9a1b981eff1" name="Default Changelist" comment="rev4">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XIX8fDFt8LXSEg5KJgU8hZQNoV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +24,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,17 +54,30 @@
       <workItem from="1580734427453" duration="865000" />
       <workItem from="1580738043487" duration="1000" />
       <workItem from="1580774970490" duration="2918000" />
+      <workItem from="1581291849812" duration="2273000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rev4" />
+    <option name="LAST_COMMIT_MESSAGE" value="rev4" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1517" y="299" key="CommitChangelistDialog2" timestamp="1581295119224">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1517" y="299" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581295119224" />
     <state x="517" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1580774970885">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="339" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580774970885" />
     <state x="517" y="329" key="com.intellij.ide.util.TipDialog/0.23.1680.947@0.23.1680.947" timestamp="1580734428215" />
+    <state x="1729" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581294483174">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1729" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581294483173" />
   </component>
 </project>
