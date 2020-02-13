@@ -5,6 +5,8 @@ public abstract class GameScreen {
     /**
      * @invariant player 'X' always goes first
      * @invariant gameBoard board is initialized to all empty strings [' ']
+     * / All private methods are helper methods to the public methods
+     * / haveTurn() and endgameSequence()
      */
     private char player = 'X';
 
@@ -22,7 +24,7 @@ public abstract class GameScreen {
      * @post active player, stored in char player, is switched from 'X' to 'O'
      *          or vice-versa.
      */
-    public abstract void switchPlayer();
+    private void switchPlayer();
 
 
     /**
@@ -30,7 +32,7 @@ public abstract class GameScreen {
      * @post gets a character representing the active player symbol
      * @return char of the active player symbol
      */
-    public abstract char whoseTurn();
+    private char whoseTurn();
 
 
     /**
@@ -38,7 +40,7 @@ public abstract class GameScreen {
      * @post prompts user for column
      * @return int of column number inputted by active player
      */
-    public abstract int askForCol();
+    private int askForCol();
 
 
     /**
@@ -47,7 +49,7 @@ public abstract class GameScreen {
      * @param c column to put the marker
      *
      */
-    public abstract void placeToken(int c);
+    private void placeToken(int c);
 
 
     /**
@@ -74,7 +76,7 @@ public abstract class GameScreen {
      * @post run board.CheckForWin(c)
      * @return true if win conditions are met, false if game should continue
      */
-    public abstract boolean checkWin(int c);
+    private boolean checkWin(int c);
 
 
     /**
@@ -83,7 +85,7 @@ public abstract class GameScreen {
      * @post run board.checkTie()
      * @return true if no spaces left, false if there are spots left
      */
-    public abstract boolean checkTie();
+    private boolean checkTie();
 
 
     /**
@@ -91,7 +93,7 @@ public abstract class GameScreen {
      * @pre endgameSequence function is being run
      * @post re-initialize board to all empty spaces, set player to "X", haveTurn()
      */
-    public abstract void restart();
+    private void restart();
 
 
 

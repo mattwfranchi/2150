@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00b11fc4-129e-4e7e-bd7e-f9a1b981eff1" name="Default Changelist" comment="rev4">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="00b11fc4-129e-4e7e-bd7e-f9a1b981eff1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +25,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab4" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -54,8 +52,24 @@
       <workItem from="1580734427453" duration="865000" />
       <workItem from="1580738043487" duration="1000" />
       <workItem from="1580774970490" duration="2918000" />
-      <workItem from="1581291849812" duration="2273000" />
+      <workItem from="1581291849812" duration="3039000" />
+      <workItem from="1581542171849" duration="7000" />
     </task>
+    <task id="LOCAL-00001" summary="rev4">
+      <created>1581295179899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581295179899</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rev4">
+      <created>1581295220963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581295220963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,14 +80,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="rev4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1517" y="299" key="CommitChangelistDialog2" timestamp="1581295179385">
+    <state x="1517" y="299" key="CommitChangelistDialog2" timestamp="1581295220558">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1517" y="299" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581295179385" />
-    <state x="517" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1580774970885">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="1517" y="299" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581295220558" />
+    <state x="427" y="456" key="FileChooserDialogImpl" timestamp="1581542177400">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="427" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581542177400" />
+    <state x="1512" y="437" key="Vcs.Push.Dialog.v2" timestamp="1581295223620">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581295223620" />
+    <state x="788" y="452" key="com.intellij.ide.util.TipDialog" timestamp="1581542171251">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="517" y="339" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580774970885" />
+    <state x="788" y="452" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581542171251" />
     <state x="517" y="329" key="com.intellij.ide.util.TipDialog/0.23.1680.947@0.23.1680.947" timestamp="1580734428215" />
     <state x="1729" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581294483174">
       <screen x="0" y="0" width="2560" height="1400" />
