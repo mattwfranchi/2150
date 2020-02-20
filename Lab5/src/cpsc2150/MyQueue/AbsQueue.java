@@ -16,6 +16,7 @@ public abstract class AbsQueue implements IQueue {
 
             add(el);
         }
+	output += '\n';
         return output;
     }
 
