@@ -2,7 +2,7 @@ package cpsc2150.MyQueue;
 
 import java.util.Scanner;
 
-public class QueueApp {
+public class StringQueueApp {
     public static void main(String[] args) {
         IQueue q;
     /*
@@ -15,12 +15,12 @@ public class QueueApp {
         int choice;
 
         System.out.println("Array (1) or List (2) Implementation: ");
-        choice = in.nextInt();
+        choice = Integer.parseInt(in.nextLine());
 
         while(choice != 1 && choice != 2){
             System.out.println("Invalid choice. Try again. ");
             System.out.println("Array (1) or List (2) Implementation: ");
-            choice = in.nextInt();
+            choice = Integer.parseInt(in.nextLine());
         }
 
         // 0 is array implementation, 1 is list implementation
@@ -33,7 +33,7 @@ public class QueueApp {
         do {
             System.out.print("\nSelect an option: \n" +
                     "1. Add to the Queue\n" +
-                    "2. Get next number from the Queue\n" +
+                    "2. Get next string from the Queue\n" +
                     "3. Peek at the front of the Queue\n" +
                     "4. Peek at the end of the Queue\n" +
                     "5. Insert in the Queue\n" +
@@ -41,10 +41,10 @@ public class QueueApp {
                     "7. Remove from a position in the Queue\n" +
                     "8. Quit\n");
 
-            choice = in.nextInt();
+            choice = Integer.parseInt(in.nextLine());
             while (choice < 0 || choice > 8) {
                 System.out.print("Choice is not valid. Try again: ");
-                choice = in.nextInt();
+                choice = Integer.parseInt(in.nextLine());
             }
 
             int idx; Object el;
@@ -58,35 +58,35 @@ public class QueueApp {
                         System.out.println("Queue is full! Returning to main menu...");
                         break;
                     }
-                    System.out.print("What number to add to the Queue? ");
-                    q.add(in.nextInt());
+                    System.out.print("What string to add to the Queue? ");
+                    q.add(in.nextLine());
                     break;
 
                 case 2:
-                    System.out.printf("Next number is %d", q.pop());
+                    System.out.printf("Next string is %s", q.pop());
                     break;
 
                 case 3:
-                    System.out.printf("Peek: %d", q.peek());
+                    System.out.printf("Peek: %s", q.peek());
                     break;
 
                 case 4:
-                    System.out.printf("Peek at end: %d", q.endOfQueue());
+                    System.out.printf("Peek at end: %s", q.endOfQueue());
                     break;
 
                 case 5:
-                    int num;
+                    Object num;
                     if(q.size() >= q.MAX_DEPTH){
                         System.out.println("Queue is full! Returning to main menu...");
                         break;
                     }
-                    System.out.print("What number to add to the queue? ");
-                    num = in.nextInt();
+                    System.out.print("What string to add to the queue? ");
+                    num = in.nextLine();
                     System.out.print("What position to insert in? ");
-                    idx = in.nextInt();
+                    idx = Integer.parseInt(in.nextLine());
                     while (idx < 1 || idx > q.size()+1) {
                         System.out.print("Invalid position. Try again: ");
-                        idx = in.nextInt();
+                        idx = Integer.parseInt(in.nextLine());
                     }
 
                     q.insert(num, idx);
@@ -95,25 +95,25 @@ public class QueueApp {
                 case 6:
 
                     System.out.print("What position to get from the Queue? ");
-                    idx = in.nextInt();
+                    idx = Integer.parseInt(in.nextLine());
                     while (idx < 1 || idx > q.size()) {
                         System.out.print("Invalid position. Try again: ");
-                        idx = in.nextInt();
+                        idx = Integer.parseInt(in.nextLine());
                     }
                     el = q.get(idx);
-                    System.out.printf("%d is at position %d in the Queue.",el,idx);
+                    System.out.printf("%s is at position %d in the Queue.",el,idx);
                     break;
 
                 case 7:
 
                     System.out.print("What position to remove from the Queue? ");
-                    idx = in.nextInt();
+                    idx = Integer.parseInt(in.nextLine());
                     while (idx < 1 || idx > q.size()) {
                         System.out.print("Invalid position. Try again: ");
-                        idx = in.nextInt();
+                        idx = Integer.parseInt(in.nextLine());
                     }
                     el = q.remove(idx);
-                    System.out.printf("%d was at position %d in the Queue.",el,idx);
+                    System.out.printf("%s was at position %d in the Queue.",el,idx);
                     break;
 
                 case 8:
