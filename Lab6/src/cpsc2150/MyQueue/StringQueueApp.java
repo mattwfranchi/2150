@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StringQueueApp {
     public static void main(String[] args) {
-        IQueue q;
+        IQueue<String> q;
     /*
     You will add in code here to ask the user whether they want an
     array implementation or a list implementation. Then use their
@@ -25,9 +25,9 @@ public class StringQueueApp {
 
         // 0 is array implementation, 1 is list implementation
         if (choice == 1) {
-            q = new ArrayQueue();
+            q = new ArrayQueue<>();
         } else {
-            q = new ListQueue();
+            q = new ListQueue<>();
         }
 
         do {
@@ -75,7 +75,7 @@ public class StringQueueApp {
                     break;
 
                 case 5:
-                    Object num;
+                    String num;
                     if(q.size() >= q.MAX_DEPTH){
                         System.out.println("Queue is full! Returning to main menu...");
                         break;
