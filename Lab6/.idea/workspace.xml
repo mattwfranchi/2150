@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a84a671-ccaf-4555-a517-1340c62b6c26" name="Default Changelist" comment="lab6finish">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab4/cpsc2150/MyQueue/ArrayQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab4/cpsc2150/MyQueue/IQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab4/cpsc2150/MyQueue/ListQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab4/cpsc2150/MyQueue/QueueApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/AbsQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/ArrayQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/IQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/ListQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab5.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cpsc2150/MyQueue/StringQueueApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/MyQueue/QueueApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/MyQueue/QueueApp.java" afterDir="false" />
+    <list default="true" id="2a84a671-ccaf-4555-a517-1340c62b6c26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +112,7 @@
       <workItem from="1582220386442" duration="124000" />
       <workItem from="1582220763722" duration="606000" />
       <workItem from="1582296392441" duration="193000" />
-      <workItem from="1582296667006" duration="1736000" />
+      <workItem from="1582296667006" duration="1816000" />
     </task>
     <task id="LOCAL-00001" summary="rev1">
       <created>1581097710954</created>
@@ -147,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581616292917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab6finish">
+      <created>1582298409654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582298409654</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,10 +161,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="369" y="489" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581094316270" />
-    <state x="201" y="300" key="CommitChangelistDialog2" timestamp="1582298394093">
+    <state x="201" y="300" key="CommitChangelistDialog2" timestamp="1582298409041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="201" y="300" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582298394093" />
+    <state x="201" y="300" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582298409041" />
     <state x="1700" y="459" key="FileChooserDialogImpl" timestamp="1582220508985">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -197,10 +185,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="399" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582298394122" />
-    <state x="232" y="438" key="Vcs.Push.Dialog.v2" timestamp="1581616494977">
+    <state x="232" y="438" key="Vcs.Push.Dialog.v2" timestamp="1582298411559">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="232" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581616494977" />
+    <state x="232" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582298411559" />
     <state x="976" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1582296547748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
