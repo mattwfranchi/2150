@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b11fc4-129e-4e7e-bd7e-f9a1b981eff1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/P1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX/ConnectX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX/P1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" afterDir="false" />
     </list>
@@ -36,12 +30,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Matt\Documents\GitHub\CU-CPSC2150" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -70,9 +62,9 @@
       <workItem from="1580774970490" duration="2918000" />
       <workItem from="1581291849812" duration="3039000" />
       <workItem from="1581542171849" duration="7000" />
-      <workItem from="1582482256751" duration="44000" />
-      <workItem from="1582482384663" duration="28000" />
-      <workItem from="1582482889055" duration="1218000" />
+      <workItem from="1582482301815" duration="30000" />
+      <workItem from="1582482341395" duration="42000" />
+      <workItem from="1582482413537" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="rev4">
       <created>1581295179899</created>
@@ -99,27 +91,39 @@
     <option name="LAST_COMMIT_MESSAGE" value="rev4" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582482345354">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582482345354" />
     <state x="1517" y="299" key="CommitChangelistDialog2" timestamp="1581295220558">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1517" y="299" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581295220558" />
-    <state x="427" y="456" key="FileChooserDialogImpl" timestamp="1582482411372">
+    <state x="427" y="456" key="FileChooserDialogImpl" timestamp="1582482366138">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="427" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582482411372" />
+    <state x="427" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582482366138" />
+    <state x="760" y="275" key="SettingsEditor" timestamp="1582482707951">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="275" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582482707951" />
     <state x="1512" y="437" key="Vcs.Push.Dialog.v2" timestamp="1581295223620">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1512" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581295223620" />
-    <state x="788" y="452" key="com.intellij.ide.util.TipDialog" timestamp="1581542171251">
+    <state x="788" y="452" key="com.intellij.ide.util.TipDialog" timestamp="1582482341957">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="517" y="339" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580774970885" />
-    <state x="788" y="452" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581542171251" />
+    <state x="788" y="452" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582482341957" />
     <state x="517" y="329" key="com.intellij.ide.util.TipDialog/0.23.1680.947@0.23.1680.947" timestamp="1580734428215" />
     <state x="1729" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581294483174">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1729" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581294483173" />
+    <state x="663" y="321" key="new project wizard" timestamp="1582482788388">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="663" y="321" key="new project wizard/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582482788388" />
   </component>
 </project>
