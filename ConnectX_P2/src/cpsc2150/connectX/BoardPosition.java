@@ -11,7 +11,7 @@ package cpsc2150.connectX;
 
 
 public class BoardPosition {
-    private int row; private int col;
+    private static int row; private static int col;
 
     // Default Constructor
     BoardPosition(){
@@ -23,6 +23,10 @@ public class BoardPosition {
         row = r;
         col = c;
     }
+
+    public int getRow() { return row; }
+
+    public int getColumn() { return col; }
 
     @Override
     public String toString(){

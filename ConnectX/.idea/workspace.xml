@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b11fc4-129e-4e7e-bd7e-f9a1b981eff1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/P1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/BoardPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +64,7 @@
       <workItem from="1581542171849" duration="7000" />
       <workItem from="1582482256751" duration="44000" />
       <workItem from="1582482384663" duration="28000" />
-      <workItem from="1582482889055" duration="1218000" />
+      <workItem from="1582482889055" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="rev4">
       <created>1581295179899</created>
