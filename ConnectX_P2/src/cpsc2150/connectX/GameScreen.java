@@ -4,6 +4,7 @@
  */
 
 package cpsc2150.connectX;
+import java.util.Scanner;
 
 public class GameScreen {
     private GameBoard gameBoard;
@@ -48,7 +49,9 @@ public class GameScreen {
      * @return int of column number inputted by active player
      */
     private int askForCol(){
-        return 2; // sample value for testing, implement scanner later
+        Scanner inputHandle = new Scanner(System.in);
+        System.out.printf("Player %c, what column do you want to place your marker in? ", player);
+        return inputHandle.nextInt();
     }
 
 
@@ -70,13 +73,17 @@ public class GameScreen {
     public int haveTurn(){
         int column = askForCol();
         placeToken(column);
+        System.out.println(gameBoard);
         if(checkWin(column)){
+            System.out.println("Win");
             return 1; // win code
         }
         else if (checkTie()){
+            System.out.println("Tie");
             return 2; // tie code
         }
         else {
+            System.out.println("Continue");
             switchPlayer();
             return 0;
         }
@@ -126,6 +133,10 @@ public class GameScreen {
     private void restart(){
         System.out.println("Restart");
     };
+
+    public String toString(){
+        return gameBoard.toString();
+    }
 
 
 

@@ -14,6 +14,7 @@ public  class GameBoard implements IGameBoard {
      */
 
     private char[][] board = new char[numRows][numCols];
+    private BoardPosition lastToken = new BoardPosition();
 
 
     public GameBoard() {
@@ -36,8 +37,8 @@ public  class GameBoard implements IGameBoard {
     }
 
 
-    public boolean checkForWin(int c) {
-        return false;
+    public boolean checkForWin(int c){
+        return checkHorizWin()
     }
 
 
@@ -46,6 +47,7 @@ public  class GameBoard implements IGameBoard {
             for (int r = 0; r < numRows; r++) {
                 if (board[r][c] == ' ') {
                     board[r][c] = p;
+                    lastToken = new BoardPosition(r,c);
                     return;
                 }
             }
@@ -54,9 +56,9 @@ public  class GameBoard implements IGameBoard {
 
 
     public boolean checkHorizWin(BoardPosition pos, char p) {
-        String columnTokens = null;
-        String XWin = null;
-        String OWin = null;
+        String columnTokens = "";
+        String XWin = "";
+        String OWin = "";
 
         int row = pos.getRow();
 
@@ -74,9 +76,9 @@ public  class GameBoard implements IGameBoard {
 
 
     public boolean checkVertWin(BoardPosition pos, char p) {
-        String columnTokens = null;
-        String XWin = null;
-        String OWin = null;
+        String columnTokens = "";
+        String XWin = "";
+        String OWin = "";
 
         int column = pos.getColumn();
 
@@ -94,9 +96,9 @@ public  class GameBoard implements IGameBoard {
 
 
     public boolean checkDiagWin(BoardPosition pos, char p) {
-        String columnTokens = null;
-        String XWin = null;
-        String OWin = null;
+        String columnTokens = "";
+        String XWin = "";
+        String OWin = "";
 
         int row = pos.getRow();
         int column = pos.getColumn();
@@ -126,15 +128,32 @@ public  class GameBoard implements IGameBoard {
 
 
     public String toString() {
-        return null;
+        String output = "";
+
+        for (int r = numRows; r >= 0; r--) {
+            output += "|";
+            for (int c = 0; c < numCols; c++) {
+
+                if (r == numRows) {
+                    output +=  c + "|";
+                }
+                else{
+                    BoardPosition iterator = new BoardPosition(r,c);
+                    output += whatsAtPos(iterator) + "|";
+                }
+            }
+            output += '\n';
+        }
+        return output;
     }
 
 
     public boolean checkTie() {
         int filledCount = 0;
         for (int c = 0; c < numCols; c++){
-            filledCount += checkIfFree(c) ? 1 : 0;
+            filledCount += checkIfFree(c) ? 0 : 1;
         }
+        System.out.println(filledCount);
         return filledCount == numCols;
 
 

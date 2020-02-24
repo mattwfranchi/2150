@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b11fc4-129e-4e7e-bd7e-f9a1b981eff1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/ConnectX_P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/Lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ConnectX_P2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,6 +80,7 @@
       <workItem from="1582482256751" duration="44000" />
       <workItem from="1582482384663" duration="28000" />
       <workItem from="1582482889055" duration="1821000" />
+      <workItem from="1582564750175" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="rev4">
       <created>1581295179899</created>
@@ -94,10 +111,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1517" y="299" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581295220558" />
-    <state x="427" y="456" key="FileChooserDialogImpl" timestamp="1582482411372">
+    <state x="427" y="456" key="FileChooserDialogImpl" timestamp="1582564765406">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="427" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582482411372" />
+    <state x="427" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582564765406" />
     <state x="1512" y="437" key="Vcs.Push.Dialog.v2" timestamp="1581295223620">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
