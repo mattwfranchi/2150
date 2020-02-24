@@ -4,12 +4,10 @@
     <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,7 @@
       <workItem from="1582557180363" duration="3611000" />
       <workItem from="1582564747396" duration="3939000" />
       <workItem from="1582572103806" duration="4098000" />
+      <workItem from="1582583890869" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -116,10 +115,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="577" y="316" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582558443987" />
-    <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582558173161">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582583901375">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582558173161" />
+    <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582583901375" />
     <state x="380" y="127" key="CommitChangelistDialog2" timestamp="1582561741916">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -116,7 +116,7 @@ public class GameScreen {
                 restart();
                 break;
             case("N"):
-                System.println("Game over.");
+                System.out.println("Game over.");
                 break;
             default:
         }
