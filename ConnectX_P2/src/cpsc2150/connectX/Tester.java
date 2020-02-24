@@ -7,5 +7,8 @@ public class Tester {
         do{
             endFlag = gameScreen.haveTurn();
         } while(endFlag == 0);
+
+        if(endFlag > 0){ gameScreen.endgameSequence(endFlag); }
+
     }
 }

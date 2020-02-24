@@ -14,7 +14,8 @@ public  class GameBoard implements IGameBoard {
      */
 
     private char[][] board = new char[numRows][numCols];
-    private BoardPosition lastToken = new BoardPosition();
+    private int lastRow = -1;
+    private char lastToken = ' ';
 
 
     public GameBoard() {
@@ -33,26 +34,30 @@ public  class GameBoard implements IGameBoard {
                 numEmpty++;
             }
         }
+        System.out.println(numEmpty);
         return numEmpty != 0;
     }
 
 
     public boolean checkForWin(int c){
-        return checkHorizWin()
+        BoardPosition pos = new BoardPosition(lastRow,c);
+        return checkHorizWin(pos,lastToken) || checkVertWin(pos, lastToken);
+
     }
 
 
     public void placeToken(char p, int c) {
-        if (checkIfFree(c)) {
-            for (int r = 0; r < numRows; r++) {
-                if (board[r][c] == ' ') {
-                    board[r][c] = p;
-                    lastToken = new BoardPosition(r,c);
-                    return;
-                }
+        for (int r = 0; r < numRows; r++) {
+            if (board[r][c] == ' ') {
+                board[r][c] = p;
+                lastRow = r;
+                lastToken = p;
+                return;
             }
         }
     }
+
+
 
 
     public boolean checkHorizWin(BoardPosition pos, char p) {
@@ -87,7 +92,7 @@ public  class GameBoard implements IGameBoard {
             OWin += "O";
         }
 
-        for (int r = 0; r < numCols; r++) {
+        for (int r = 0; r < numRows; r++) {
             columnTokens += board[r][column];
         }
 

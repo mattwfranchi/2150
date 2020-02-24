@@ -50,8 +50,13 @@ public class GameScreen {
      */
     private int askForCol(){
         Scanner inputHandle = new Scanner(System.in);
-        System.out.printf("Player %c, what column do you want to place your marker in? ", player);
-        return inputHandle.nextInt();
+        System.out.printf("Player %c, what column do you want to place your marker in? \n", player);
+        int column = inputHandle.nextInt();
+        while(!gameBoard.checkIfFree(column)){
+            System.out.printf("Column %d is full. Try again: \n", column);
+            column = inputHandle.nextInt();
+        }
+        return column;
     }
 
 
@@ -96,13 +101,25 @@ public class GameScreen {
      * @post outputs outcome of the game, and asks if you want to play again
      */
     public void endgameSequence(int choice){
+        Scanner inputHandle = new Scanner(System.in);
         if(choice == 1){
             System.out.println("Game win.");
         }
         else{
             System.out.println("Game tie.");
         }
-        // ADD PLAY AGAIN CODE
+        System.out.println("Would you like to play again? Y/N ");
+        String retryChoice = inputHandle.next();
+        retryChoice = retryChoice.toUpperCase();
+        switch(retryChoice){
+            case("Y"):
+                restart();
+                break;
+            case("N"):
+                System.println("Game over.");
+                break;
+            default:
+        }
     }
 
 
@@ -131,13 +148,14 @@ public class GameScreen {
      * @post re-initialize board to all empty spaces, set player to "X", haveTurn()
      */
     private void restart(){
-        System.out.println("Restart");
+        gameBoard = new GameBoard();
+        player = 'X';
+
     };
 
     public String toString(){
         return gameBoard.toString();
     }
-
 
 
 }

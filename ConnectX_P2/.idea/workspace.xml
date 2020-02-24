@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ConnectX_P2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/Lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="570" />
+    <option name="myElementSize" value="284" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -88,6 +77,7 @@
       <updated>1582557179071</updated>
       <workItem from="1582557180363" duration="3611000" />
       <workItem from="1582564747396" duration="3939000" />
+      <workItem from="1582572103806" duration="4098000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -108,10 +98,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="continued implementation rev4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="670" y="253" key="#Project_Structure" timestamp="1582565908477">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="440" y="190" key="#Project_Structure" timestamp="1582572123061">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1582558707216" />
+    <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1582572123061" />
     <state x="670" y="253" key="#Project_Structure/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565908477" />
     <state x="997" y="371" key="#Test" timestamp="1582565953197">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -138,26 +128,42 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565905837" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1582568364196">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1582574546329">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582561579349" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582574546329" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582568364196" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1582568364195">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1582574546328">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582561579348" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582574546328" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582568364195" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1582568364195">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1582574546327">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582561579345" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582574546327" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582568364195" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1582568364195">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1582574546328">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582561579349" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582574546328" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582568364195" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1582573113706">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582573113706" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1582573113704">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582573113704" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1582573113704">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582573113704" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1582573113705">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582573113705" />
     <state x="500" y="141" key="SettingsEditor" timestamp="1582565826525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -175,13 +181,28 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="976" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582564772722" />
+    <state x="389" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582572971094">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="389" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050@0.0.1680.1050" timestamp="1582572971094" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1582565274091">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="936" y="330" key="run.anything.popup/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565274091" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1582572895597">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582572895597" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="XWin" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ConnectX_P2$Test.ic" NAME="Test Coverage Results" MODIFIED="1582574546302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ConnectX_P2$Tester.ic" NAME="Tester Coverage Results" MODIFIED="1582561475723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/ConnectX_P2$Test.ic" NAME="Test Coverage Results" MODIFIED="1582568364168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
