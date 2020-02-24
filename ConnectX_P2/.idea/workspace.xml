@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YG7fRxioZ7ayWitcp0ErfWYMlj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tester" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.Tester" />
+      <module name="ConnectX_P2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="" />
+      <created>1582557179071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582557179071</updated>
+      <workItem from="1582557180363" duration="3611000" />
+    </task>
+    <task id="LOCAL-00001" summary="continued implementation rev4">
+      <created>1582561658323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582561658323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="continued implementation rev4" />
+    <option name="LAST_COMMIT_MESSAGE" value="continued implementation rev4" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Project_Structure" timestamp="1582558707216">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1582558707216" />
+    <state x="267" y="309" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582561469953">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="267" y="309" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582561469953" />
+    <state x="577" y="316" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582558443987">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="577" y="316" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582558443987" />
+    <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582558173161">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582558173161" />
+    <state x="380" y="127" key="CommitChangelistDialog2" timestamp="1582561741916">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="380" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582561741916" />
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1582561579349">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582561579349" />
+    <state width="1638" height="363" key="GridCell.Tab.0.center" timestamp="1582561579348">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582561579348" />
+    <state width="1638" height="363" key="GridCell.Tab.0.left" timestamp="1582561579345">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582561579345" />
+    <state width="1638" height="363" key="GridCell.Tab.0.right" timestamp="1582561579349">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582561579349" />
+    <state x="328" y="106" key="SettingsEditor" timestamp="1582560305738">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1582560305738" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1582561660455">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582561660455" />
+    <state x="623" y="310" key="chooseDestDirectoryDialog" timestamp="1582559001012">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="623" y="310" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582559001012" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ConnectX_P2$Tester.ic" NAME="Tester Coverage Results" MODIFIED="1582561475723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
