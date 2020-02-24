@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a84a671-ccaf-4555-a517-1340c62b6c26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ConnectX/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/Lab4.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/cpsc2150.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/cpsc2150/MyQueue/ArrayQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/cpsc2150/MyQueue/IQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/cpsc2150/MyQueue/ListQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/cpsc2150/MyQueue/QueueApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P2/.idea/P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/BoardPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +70,7 @@
       <recent name="C:\Users\Matt\Documents\GitHub\CU-CPSC2150\Lab6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringQueueApp">
+  <component name="RunManager" selected="Application.Lab6">
     <configuration name="Lab6" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="cpsc2150.MyQueue.QueueApp" />
       <module name="Lab5" />
@@ -116,6 +134,7 @@
       <workItem from="1582296667006" duration="1836000" />
       <workItem from="1582298896792" duration="1278000" />
       <workItem from="1582482242633" duration="13000" />
+      <workItem from="1582558470089" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="rev1">
       <created>1581097710954</created>
@@ -172,14 +191,19 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="357" y="364" key="#Lab4/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581094317283" />
-    <state x="94" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582296706638">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="62" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582558478515">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="62" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582558478515" />
     <state x="94" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582296706638" />
     <state x="369" y="489" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581094316270">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="369" y="489" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581094316270" />
+    <state x="689" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582559058865">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="689" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582559058865" />
     <state x="201" y="300" key="CommitChangelistDialog2" timestamp="1582299336281">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

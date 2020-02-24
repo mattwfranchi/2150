@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b11fc4-129e-4e7e-bd7e-f9a1b981eff1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ConnectX/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX/ConnectX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX/P1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +61,7 @@
       <workItem from="1582482301815" duration="30000" />
       <workItem from="1582482341395" duration="42000" />
       <workItem from="1582482413537" duration="376000" />
+      <workItem from="1582557157463" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="rev4">
       <created>1581295179899</created>
@@ -111,10 +108,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1512" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581295223620" />
-    <state x="788" y="452" key="com.intellij.ide.util.TipDialog" timestamp="1582482341957">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="517" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1582557158135">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="339" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580774970885" />
+    <state x="517" y="339" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582557158135" />
     <state x="788" y="452" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582482341957" />
     <state x="517" y="329" key="com.intellij.ide.util.TipDialog/0.23.1680.947@0.23.1680.947" timestamp="1580734428215" />
     <state x="1729" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581294483174">

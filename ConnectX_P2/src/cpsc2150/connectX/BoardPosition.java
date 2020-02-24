@@ -30,12 +30,12 @@ public class BoardPosition {
 
     @Override
     public String toString(){
-
+        return "Test";
     }
 
     @Override
     public boolean equals(Object other){
-
+        return false;
     }
 
 
