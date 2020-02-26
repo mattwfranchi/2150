@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mortgage/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mortgage/makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mortgage/out/production/Mortgage/cpsc2150/banking/IMortgage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/out/production/Mortgage/cpsc2150/banking/IMortgage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mortgage/out/production/Mortgage/cpsc2150/banking/Mortgage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/out/production/Mortgage/cpsc2150/banking/Mortgage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mortgage/src/cpsc2150/banking/IMortgage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/src/cpsc2150/banking/IMortgage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mortgage/src/cpsc2150/banking/Mortgage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/src/cpsc2150/banking/Mortgage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1582572103806" duration="4098000" />
       <workItem from="1582583890869" duration="959000" />
       <workItem from="1582663621079" duration="943000" />
-      <workItem from="1582667851145" duration="772000" />
+      <workItem from="1582667851145" duration="956000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -91,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582561658323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="continued implemenation rev9">
+      <created>1582677665400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582677665401</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +106,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="continued implementation rev4" />
     <MESSAGE value="continued implemenation rev6" />
-    <option name="LAST_COMMIT_MESSAGE" value="continued implemenation rev6" />
+    <MESSAGE value="continued implemenation rev9" />
+    <option name="LAST_COMMIT_MESSAGE" value="continued implemenation rev9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Project_Structure" timestamp="1582590725107">
@@ -127,10 +133,10 @@
     </state>
     <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582558173161" />
     <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582583901375" />
-    <state x="380" y="127" key="CommitChangelistDialog2" timestamp="1582561741916">
+    <state x="380" y="127" key="CommitChangelistDialog2" timestamp="1582677665153">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="380" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582561741916" />
+    <state x="380" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582677665153" />
     <state x="753" y="309" key="FileChooserDialogImpl" timestamp="1582565905837">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -176,10 +182,10 @@
     </state>
     <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1582560305738" />
     <state x="500" y="141" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565826525" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1582561660455">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1582677667216">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582561660455" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582677667216" />
     <state x="623" y="310" key="chooseDestDirectoryDialog" timestamp="1582559001012">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

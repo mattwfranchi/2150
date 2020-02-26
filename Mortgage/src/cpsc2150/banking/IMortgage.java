@@ -51,6 +51,8 @@ public interface IMortgage {
     int MAX_YEARS = 30;
     double PREFERRED_PERCENT_DOWN = .2;
     double MIN_PERCENT_DOWN = .035; // not a constraint, affects loan approval
+
+    int MONTHSINYEAR = 12;
     /**
      *
      * @return true if the loan is approved, false otherwise
