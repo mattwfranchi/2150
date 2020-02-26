@@ -7,23 +7,16 @@ package cpsc2150.connectX;
 import java.util.Scanner;
 
 public class GameScreen {
-    private GameBoard gameBoard;
+    private static GameBoard gameBoard = new GameBoard();
     /**
      * @invariant player 'X' always goes first
      * @invariant gameBoard board is initialized to all empty strings [' ']
+     * @correspondence gameBoard = board
+     *
      * / All private methods are helper methods to the public methods
      * / haveTurn() and endgameSequence()
      */
-    private char player = 'X';
-
-
-    /**
-     * @post runs GameBoard constructor to create gameBoard
-     * @post GameScreen instance is in a usable state
-     */
-    public GameScreen(){
-        gameBoard = new GameBoard();
-    }
+    private static char player = 'X';
 
 
     /**
@@ -32,25 +25,18 @@ public class GameScreen {
      * @post active player, stored in char player, is switched from 'X' to 'O'
      *          or vice-versa.
      */
-    private void switchPlayer() {
+    private static void switchPlayer() {
         player = (player == 'X' ? 'O' : 'X');
     }
 
 
-    /**
-     * @pre within while loop containing haveTurn()
-     * @post gets a character representing the active player symbol
-     * @return char of the active player symbol
-     */
-    char whoseTurn(){ return player; }
-
 
     /**
-     * @pre within while loop containing haveTurn()
-     * @post prompts user for column
+     * @pre function is called within while loop containing haveTurn()
+     * @post askForCol() = [integer representing user's valid column number]
      * @return int of column number inputted by active player
      */
-    private int askForCol(){
+    private static int askForCol(){
         Scanner inputHandle = new Scanner(System.in);
         System.out.printf("Player %c, what column do you want to place your marker in? \n", player);
         int column = inputHandle.nextInt();
@@ -83,7 +69,7 @@ public class GameScreen {
      * @param c column to put the marker
      *
      */
-    private void placeToken(int c){ gameBoard.placeToken(player,c); }
+    private static void placeToken(int c){ gameBoard.placeToken(player,c); }
 
 
     /**
@@ -92,7 +78,7 @@ public class GameScreen {
      * @post askForCol -> placeToken -> checkWin -> checkTie -> switchPlayer
      * @return 0 if loop should continue, 1 if win occured, 2 if tie occured
      */
-    public int haveTurn(){
+    private static int haveTurn(){
         // get valid column from user input
         int column = askForCol();
 
@@ -122,7 +108,7 @@ public class GameScreen {
      * @param choice signals outcome of game - 1: game win // 2: game tie
      * @post outputs outcome of the game, and asks if you want to play again
      */
-    public int endgameSequence(int choice){
+    private static int endgameSequence(int choice){
         // initiialize new Scanner instance to read user input
         Scanner inputHandle = new Scanner(System.in);
 
@@ -159,7 +145,7 @@ public class GameScreen {
      * @post run board.CheckForWin(c)
      * @return true if win conditions are met, false if game should continue
      */
-    private boolean checkWin(int c){ return gameBoard.checkForWin(c); }
+    private static boolean checkWin(int c){ return gameBoard.checkForWin(c); }
 
 
     /**
@@ -168,7 +154,7 @@ public class GameScreen {
      * @post run board.checkTie()
      * @return true if no spaces left, false if there are spots left
      */
-    private boolean checkTie(){ return gameBoard.checkTie(); }
+    private static boolean checkTie(){ return gameBoard.checkTie(); }
 
 
     /**
@@ -176,7 +162,7 @@ public class GameScreen {
      * @pre endgameSequence function is being run
      * @post re-initialize board to all empty spaces, set player to "X", haveTurn()
      */
-    private void restart(){
+    private static void restart(){
         player = 'X';
         gameBoard = new GameBoard();
 
@@ -192,7 +178,10 @@ public class GameScreen {
         return gameBoard.toString();
     }
 
-
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args){
         int endFlag = haveTurn();
         while(endFlag == 0){
