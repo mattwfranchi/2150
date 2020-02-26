@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Mortgage/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mortgage/makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mortgage/out/production/Mortgage/cpsc2150/banking/IMortgage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/out/production/Mortgage/cpsc2150/banking/IMortgage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mortgage/out/production/Mortgage/cpsc2150/banking/Mortgage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/out/production/Mortgage/cpsc2150/banking/Mortgage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mortgage/src/cpsc2150/banking/IMortgage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/src/cpsc2150/banking/IMortgage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mortgage/src/cpsc2150/banking/Mortgage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/src/cpsc2150/banking/Mortgage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
   <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.Tester" />
+      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.GameScreen" />
       <module name="ConnectX_P2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,7 +76,7 @@
       <workItem from="1582572103806" duration="4098000" />
       <workItem from="1582583890869" duration="959000" />
       <workItem from="1582663621079" duration="943000" />
-      <workItem from="1582667851145" duration="956000" />
+      <workItem from="1582667851145" duration="1938000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -119,10 +115,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="997" y="371" key="#Test/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565953197" />
-    <state x="407" y="412" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582564987106">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="267" y="309" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582745970320">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="267" y="309" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582561469953" />
+    <state x="267" y="309" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582745970320" />
     <state x="407" y="412" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582564987106" />
     <state x="577" y="316" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582558443987">
       <screen x="0" y="0" width="1680" height="1050" />

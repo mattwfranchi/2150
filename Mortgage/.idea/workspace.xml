@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60a8350-3df0-4f1c-bbfc-a1eedeea8370" name="Default" comment="added makefile">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mortgage/cpsc2150/banking/IMortgage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mortgage/cpsc2150/banking/IMortgage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mortgage/cpsc2150/banking/Mortgage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mortgage/cpsc2150/banking/Mortgage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/banking/IMortgage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/banking/IMortgage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/banking/Mortgage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/banking/Mortgage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,8 +299,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582651785983</updated>
-      <workItem from="1582719052442" duration="3079000" />
+      <workItem from="1582719052442" duration="4189000" />
     </task>
+    <task id="LOCAL-00001" summary="added makefile">
+      <created>1582722928094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582722928094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,10 +319,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added makefile" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="365" y="127" key="CommitChangelistDialog2" timestamp="1582722651618">
+    <state x="365" y="127" key="CommitChangelistDialog2" timestamp="1582722927894">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="365" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582722651618" />
+    <state x="365" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582722927894" />
     <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1582722651644">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -335,6 +339,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582722651643" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1582722929197">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582722929197" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1582719866505">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

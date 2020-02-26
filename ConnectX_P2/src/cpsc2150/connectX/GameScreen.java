@@ -35,6 +35,8 @@ public class GameScreen {
     private void switchPlayer() {
         player = (player == 'X' ? 'O' : 'X');
     }
+
+
     /**
      * @pre within while loop containing haveTurn()
      * @post gets a character representing the active player symbol
@@ -181,9 +183,29 @@ public class GameScreen {
 
     };
 
+    /**
+     * @pre gameBoard has been initialized, is in usable condition
+     * @return String representing the gameBoard, in readable format
+     * @post gameBoard.toString() = toString()
+     */
     public String toString(){
         return gameBoard.toString();
     }
+
+
+    public static void main(String[] args){
+        int endFlag = haveTurn();
+        while(endFlag == 0){
+            endFlag = haveTurn();
+            if(endFlag != 0){
+                endFlag = endgameSequence(endFlag);
+            }
+        }
+    }
+
+
+
+
 
 
 }
