@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Mortgage/makefile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="Default Changelist">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -407,12 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582677665401</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Default Changelist">
+      <created>1582751670570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582751670570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1003" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -454,7 +452,8 @@
     <MESSAGE value="continued implementation rev4" />
     <MESSAGE value="continued implemenation rev6" />
     <MESSAGE value="continued implemenation rev9" />
-    <option name="LAST_COMMIT_MESSAGE" value="continued implemenation rev9" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Project_Structure" timestamp="1582590725107">
