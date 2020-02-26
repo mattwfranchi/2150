@@ -52,10 +52,25 @@ public class GameScreen {
         Scanner inputHandle = new Scanner(System.in);
         System.out.printf("Player %c, what column do you want to place your marker in? \n", player);
         int column = inputHandle.nextInt();
-        while(!gameBoard.checkIfFree(column)){
-            System.out.printf("Column %d is full. Try again: \n", column);
-            column = inputHandle.nextInt();
+
+        // check for negative column number
+        while(column < 0){
+            System.out.println("Column cannot be less than 0. Try again. ");
+            column = askForCol();
         }
+
+        // check for out of range column number (>)
+        while(column > gameBoard.getNumColumns() - 1){
+            System.out.printf("Column cannot be greater than %d. Try again. \n",gameBoard.getNumColumns()-1);
+            column = askForCol();
+        }
+
+        // check that column can accept another token
+        while(!gameBoard.checkIfFree(column)){
+            System.out.printf("Column %d is full. Try again. \n", column);
+            column = askForCol();
+        }
+
         return column;
     }
 
@@ -76,19 +91,24 @@ public class GameScreen {
      * @return 0 if loop should continue, 1 if win occured, 2 if tie occured
      */
     public int haveTurn(){
+        // get valid column from user input
         int column = askForCol();
+
+        // place the active player's token in column
         placeToken(column);
+
+        // print out the upated gameboard
         System.out.println(gameBoard);
+
+        // if...else sequence to process whether game should end or continue
         if(checkWin(column)){
-            System.out.println("Win");
             return 1; // win code
         }
         else if (checkTie()){
-            System.out.println("Tie");
             return 2; // tie code
         }
         else {
-            System.out.println("Continue");
+            // continue game, and switch active player
             switchPlayer();
             return 0;
         }
@@ -100,26 +120,33 @@ public class GameScreen {
      * @param choice signals outcome of game - 1: game win // 2: game tie
      * @post outputs outcome of the game, and asks if you want to play again
      */
-    public void endgameSequence(int choice){
+    public int endgameSequence(int choice){
+        // initiialize new Scanner instance to read user input
         Scanner inputHandle = new Scanner(System.in);
+
+        // win case
         if(choice == 1){
-            System.out.println("Game win.");
+            System.out.printf("Player %c Won!\n",player);
         }
+        // tie case
         else{
-            System.out.println("Game tie.");
+            System.out.println("The game ended in a tie!\n");
         }
+
+        // take user input for play again, make it uppercase; simplifies processing
         System.out.println("Would you like to play again? Y/N ");
-        String retryChoice = inputHandle.next();
-        retryChoice = retryChoice.toUpperCase();
-        switch(retryChoice){
-            case("Y"):
-                restart();
-                break;
-            case("N"):
-                System.out.println("Game over.");
-                break;
-            default:
+        String retryChoice = inputHandle.next().toUpperCase();
+
+        // process choice to make sure it is valid (Y or N)
+        while(!retryChoice.equals("N") && !retryChoice.equals("Y")){
+            System.out.println("Would you like to play again? Y/N ");
+            retryChoice = inputHandle.next().toUpperCase();
         }
+
+        // reset board
+        if(retryChoice.equals("Y")){ restart(); }
+
+        return retryChoice.equals("N") ? 1 : 0;
     }
 
 
@@ -148,8 +175,9 @@ public class GameScreen {
      * @post re-initialize board to all empty spaces, set player to "X", haveTurn()
      */
     private void restart(){
-        gameBoard = new GameBoard();
         player = 'X';
+        gameBoard = new GameBoard();
+
 
     };
 

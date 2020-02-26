@@ -6,11 +6,12 @@
       <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/cpsc2150/MyQueue/QueueApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +188,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="369" y="489" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1581094316270" />
+    <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582659104814">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582659104814" />
     <state x="201" y="300" key="CommitChangelistDialog2" timestamp="1582299336281">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -195,21 +200,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1700" y="459" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582220508985" />
-    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1582323628202">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1582663616845">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582663616845" />
     <state width="2517" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582323628202" />
-    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1582323628202">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1582663616844">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582663616844" />
     <state width="2517" height="399" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582323628202" />
-    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1582323628202">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1582663616844">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582663616844" />
     <state width="2517" height="399" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582323628202" />
-    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1582323628202">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1582663616845">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582663616845" />
     <state width="2517" height="399" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582323628202" />
     <state x="232" y="438" key="Vcs.Push.Dialog.v2" timestamp="1582299338905">
       <screen x="0" y="0" width="2560" height="1400" />

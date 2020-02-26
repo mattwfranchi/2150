@@ -4,10 +4,14 @@
     <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/Tester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +81,8 @@
       <workItem from="1582564747396" duration="3939000" />
       <workItem from="1582572103806" duration="4098000" />
       <workItem from="1582583890869" duration="959000" />
+      <workItem from="1582663621079" duration="943000" />
+      <workItem from="1582667851145" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -94,13 +100,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="continued implementation rev4" />
-    <option name="LAST_COMMIT_MESSAGE" value="continued implementation rev4" />
+    <MESSAGE value="continued implemenation rev6" />
+    <option name="LAST_COMMIT_MESSAGE" value="continued implemenation rev6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="190" key="#Project_Structure" timestamp="1582572123061">
+    <state x="440" y="190" key="#Project_Structure" timestamp="1582590725107">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1582572123061" />
+    <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1582590725107" />
     <state x="670" y="253" key="#Project_Structure/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565908477" />
     <state x="997" y="371" key="#Test" timestamp="1582565953197">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -128,25 +135,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565905837" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1582574546329">
+    <state width="1638" height="200" key="GridCell.Tab.0.bottom" timestamp="1582664566894">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582574546329" />
+    <state width="1638" height="200" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582664566894" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582568364196" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1582574546328">
+    <state width="1638" height="200" key="GridCell.Tab.0.center" timestamp="1582664566893">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582574546328" />
+    <state width="1638" height="200" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582664566893" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582568364195" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1582574546327">
+    <state width="1638" height="200" key="GridCell.Tab.0.left" timestamp="1582664566893">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582574546327" />
+    <state width="1638" height="200" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582664566893" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582568364195" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1582574546328">
+    <state width="1638" height="200" key="GridCell.Tab.0.right" timestamp="1582664566893">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582574546328" />
+    <state width="1638" height="200" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582664566893" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582568364195" />
     <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1582573113706">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -189,10 +196,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="936" y="330" key="run.anything.popup/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565274091" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1582572895597">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1582662144294">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582572895597" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582662144294" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -202,7 +209,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ConnectX_P2$Test.ic" NAME="Test Coverage Results" MODIFIED="1582574546302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ConnectX_P2$Test.ic" NAME="Test Coverage Results" MODIFIED="1582662154778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ConnectX_P2$Tester.ic" NAME="Tester Coverage Results" MODIFIED="1582561475723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
