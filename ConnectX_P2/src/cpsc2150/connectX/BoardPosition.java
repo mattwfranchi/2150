@@ -30,12 +30,18 @@ public class BoardPosition {
 
     @Override
     public String toString(){
-        return "Test";
+        return "("+Character.forDigit(row,10) + ", " + Character.forDigit(col,10) + ")";
     }
 
     @Override
     public boolean equals(Object other){
-        return false;
+        if(other == this) { return true; }
+
+        if(!(other instanceof BoardPosition)){ return false; }
+
+        BoardPosition o = (BoardPosition) other;
+
+        return row == o.row && col == o.col
     }
 
 

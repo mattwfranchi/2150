@@ -158,7 +158,7 @@ public  class GameBoard implements IGameBoard {
         return whatsAtPos(pos) == player;
     }
 
-
+    @Override
     public String toString() {
         String output = "";
 
