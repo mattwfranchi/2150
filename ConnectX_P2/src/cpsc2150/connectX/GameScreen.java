@@ -176,6 +176,7 @@ public class GameScreen {
      */
     private void restart(){
         player = 'X';
+        // reinitialize gameBoard, running constructor code again
         gameBoard = new GameBoard();
 
 

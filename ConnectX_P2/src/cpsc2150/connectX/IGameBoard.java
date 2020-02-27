@@ -29,6 +29,8 @@ public interface IGameBoard {
     public static final int numRows = 6;
     public static final int numCols = 7;
     public static final int numToWin = 4;
+    public static final char p1 = 'X';
+    public static final char p2 = 'O';
 
     // PART I FUNCTIONS
 
@@ -97,7 +99,7 @@ public interface IGameBoard {
      * @pre 0 <= pos.row <= (number of rows) AND 0 <= pos.col <= (number of columns)
      * @param pos BoardPosition to index
      * @post board is unchanged
-     * @return contents of pos of board
+     * @return contents of pos of board, flag if invalid index
      */
     char whatsAtPos(BoardPosition pos);
 
