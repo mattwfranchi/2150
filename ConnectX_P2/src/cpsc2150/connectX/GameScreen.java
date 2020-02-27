@@ -10,11 +10,8 @@ public class GameScreen {
     private static GameBoard gameBoard = new GameBoard();
     /**
      * @invariant player 'X' always goes first
-     * @invariant gameBoard board is initialized to all empty strings [' ']
+     * @invariant gameBoard board is initialized to all empty chars [' ']
      * @correspondence gameBoard = board
-     *
-     * / All private methods are helper methods to the public methods
-     * / haveTurn() and endgameSequence()
      */
     private static char player = 'X';
 
@@ -23,7 +20,7 @@ public class GameScreen {
      * @pre checkWin and checkTie have both been run, returned false
      * @pre within while loop containing haveTurn()
      * @post active player, stored in char player, is switched from 'X' to 'O'
-     *          or vice-versa.
+     *          or vice-versa; switchPlayer() = 'X' -> 'O' or vice-versa
      */
     private static void switchPlayer() {
         player = (player == 'X' ? 'O' : 'X');
@@ -32,11 +29,12 @@ public class GameScreen {
 
 
     /**
-     * @pre function is called within while loop containing haveTurn()
+     * @pre player enters an integer AND function is called within while loop containing haveTurn()
      * @post askForCol() = [integer representing user's valid column number]
      * @return int of column number inputted by active player
      */
     private static int askForCol(){
+        // initialize Scanner to process user input
         Scanner inputHandle = new Scanner(System.in);
         System.out.printf("Player %c, what column do you want to place your marker in? \n", player);
         int column = inputHandle.nextInt();
@@ -58,7 +56,6 @@ public class GameScreen {
             System.out.printf("Column %d is full. Try again. \n", column);
             column = askForCol();
         }
-
         return column;
     }
 
@@ -83,16 +80,16 @@ public class GameScreen {
         int column = askForCol();
 
         // place the active player's token in column
-        placeToken(column);
+        gameBoard.placeToken(column);
 
         // print out the upated gameboard
         System.out.println(gameBoard);
 
         // if...else sequence to process whether game should end or continue
-        if(checkWin(column)){
+        if(gameBoard.checkForWin(column)){
             return 1; // win code
         }
-        else if (checkTie()){
+        else if (gameBoard.checkTie()){
             return 2; // tie code
         }
         else {
@@ -137,26 +134,6 @@ public class GameScreen {
         return retryChoice.equals("N") ? 1 : 0;
     }
 
-
-    /**
-     * @pre within while loop containing haveTurn()
-     * @pre placeToken was just run before call
-     * @param c column where last token was placed
-     * @post run board.CheckForWin(c)
-     * @return true if win conditions are met, false if game should continue
-     */
-    private static boolean checkWin(int c){ return gameBoard.checkForWin(c); }
-
-
-    /**
-     * @pre haveTurn() loop is active
-     * @pre placeToken() was just run before call
-     * @post run board.checkTie()
-     * @return true if no spaces left, false if there are spots left
-     */
-    private static boolean checkTie(){ return gameBoard.checkTie(); }
-
-
     /**
      * @pre haveTurn() loop has ended
      * @pre endgameSequence function is being run
@@ -178,14 +155,17 @@ public class GameScreen {
         return gameBoard.toString();
     }
 
-    /**
-     *
-     * @param args
-     */
+
+
+// MAIN FUNCTION
+
     public static void main(String[] args){
+        // run first instance of haveTurn to start while loop
         int endFlag = haveTurn();
+        // continue running haveTurn until endFlag != 0 ; (0 = continue code)
         while(endFlag == 0){
             endFlag = haveTurn();
+            // endgame code; endFlag is updated to indicate restart (0) or exit game (1)
             if(endFlag != 0){
                 endFlag = endgameSequence(endFlag);
             }

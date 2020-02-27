@@ -10,7 +10,7 @@ package cpsc2150.connectX;
  Indexing starts at xxx
 
  Initialization ensures:
- GameBoard only contains blank characters and board is (number of rows) x (number of columns)
+ GameBoard only contains blank characters and board is of size (number of rows) x (number of columns)
 
  Defines:       (number of rows): Z
                 (number of columns): Z
@@ -96,7 +96,7 @@ public interface IGameBoard {
     /**
      * @pre 0 <= pos.row <= (number of rows) AND 0 <= pos.col <= (number of columns)
      * @param pos BoardPosition to index
-     * @post board is unchanged
+     * @post board is unchanged AND whatsAtPos() = contents of inputted position on board
      * @return contents of pos of board
      */
     char whatsAtPos(BoardPosition pos);
@@ -128,21 +128,21 @@ public interface IGameBoard {
     // PART II FUNCTIONS
 
     /**
-     *
+     * @post getNumRows() = numRows
      * @return (number of rows)
      */
     int getNumRows();
 
 
     /**
-     *
+     * @post getNumColumns() = numCols
      * @return (number of columns)
      */
     int getNumColumns();
 
 
     /**
-     *
+     * @post getNumToWin() = numToWin
      * @return number of consecutive tokens needed to win the game
      */
     int getNumToWin();
