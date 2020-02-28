@@ -17,7 +17,7 @@ public class GameScreen {
     private static char player = 'X';
 
 
-    /**
+    /**m
      * @pre checkWin and checkTie have both been run, returned false
      * @pre within while loop containing haveTurn()
      * @post active player, stored in char player, is switched from 'X' to 'O'
@@ -148,11 +148,10 @@ public class GameScreen {
 
 
 
-
-
 // MAIN FUNCTION
 
     public static void main(String[] args){
+
         // run first instance of haveTurn to start while loop
         int endFlag = haveTurn();
         // continue running haveTurn until endFlag != 0 ; (0 = continue code)

@@ -14,10 +14,14 @@ package cpsc2150.connectX;
 
  Defines:       (number of rows): Z
                 (number of columns): Z
+                (number of tokens needed to win) : Z
+                (token symbol for player 1) : char
+                (token symbol for player 2) : char
                 board: 2-d array of chars (Z x Z)
 
  Constraints:   (number of rows) > 0
                 (number of columns) > 0
+                (number of tokens needed to win) > 0
                 board has (number of rows) x (number of columns) entries
  */
 
@@ -25,12 +29,7 @@ package cpsc2150.connectX;
 
 public interface IGameBoard {
 
-    // CONSTANTS
-    public static final int numRows = 6;
-    public static final int numCols = 7;
-    public static final int numToWin = 4;
-    public static final char p1 = 'X';
-    public static final char p2 = 'O';
+
 
     // PART I FUNCTIONS
 

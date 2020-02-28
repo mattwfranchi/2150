@@ -6,13 +6,27 @@
 
 package cpsc2150.connectX;
 
-
-
-
 public  class GameBoard implements IGameBoard {
     /**
      * @invariant (board must be 6x7, having 42 positions)
+     * @invariant players need 4 tokens in succession to win
+     * @invariant numRows > 0
+     * @invariant numCols > 0
+     * @invariant numToWin > 0
+     * @invariant p1 != p2
+     * @correspondence (number of rows) = numRows
+     * @correspondence (number of columns) = numCols
+     * @correspondence (number of tokens needed to win) = numToWin
+     * @correspondence (token symbol for player 1) = p1
+     * @correspondence (token symbol for player 2) = p2
+     *
      */
+
+    public static final int numRows = 6;
+    public static final int numCols = 7;
+    public static final int numToWin = 4;
+    public static final char p1 = 'X';
+    public static final char p2 = 'O';
 
     // board: representation of game board, as a 2-d character array with size numRows x numCols
     private char[][] board = new char[numRows][numCols];
@@ -20,7 +34,6 @@ public  class GameBoard implements IGameBoard {
     private int lastRow = -1;
     // lastToken: keeps track of last token that was inserted, initialized to blank space for flagging
     private char lastToken = ' ';
-
 
     public GameBoard() {
         // nested for loops to set each board entry to blank
