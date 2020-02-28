@@ -19,7 +19,6 @@ public  class GameBoard implements IGameBoard {
      * @correspondence (number of tokens needed to win) = numToWin
      * @correspondence (token symbol for player 1) = p1
      * @correspondence (token symbol for player 2) = p2
-     *
      */
 
     public static final int numRows = 6;
