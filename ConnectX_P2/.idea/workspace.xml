@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/../Lab8/test/cpsc2150/MyQueue/TestListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/lib/junit-4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/production/Lab5/cpsc2150/MyQueue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/out/production/Lab5/cpsc2150/MyQueue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/production/Lab5/cpsc2150/MyQueue/IQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/out/production/Lab5/cpsc2150/MyQueue/IQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/production/Lab5/junit-4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/production/Lab5/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/out/production/Lab5/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/test/Lab5/cpsc2150/MyQueue/TestArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/out/test/Lab5/cpsc2150/MyQueue/TestArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/src/cpsc2150/MyQueue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/cpsc2150/MyQueue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/src/cpsc2150/MyQueue/IQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/cpsc2150/MyQueue/IQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/src/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/test/cpsc2150/MyQueue/TestArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/test/cpsc2150/MyQueue/TestArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +47,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Issue.Navigation" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -151,6 +166,8 @@
       <workItem from="1582663621079" duration="943000" />
       <workItem from="1582667851145" duration="1938000" />
       <workItem from="1582823562186" duration="4081000" />
+      <workItem from="1583267442501" duration="651000" />
+      <workItem from="1583331735610" duration="559000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -266,11 +283,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="992" y="417" key="MultipleFileMergeDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823586699" />
-    <state x="500" y="141" key="SettingsEditor" timestamp="1582565826525">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="328" y="121" key="SettingsEditor" timestamp="1583267492935">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1582560305738" />
     <state x="500" y="141" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565826525" />
+    <state x="328" y="121" key="SettingsEditor/0.23.1680.972@0.23.1680.972" timestamp="1583267492935" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1582863885139">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -279,11 +297,12 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="623" y="310" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582559001012" />
-    <state x="641" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1582864134115">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="641" y="388" key="com.intellij.ide.util.TipDialog" timestamp="1583267441907">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="641" y="394" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582864134115" />
     <state x="976" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823567819" />
+    <state x="641" y="388" key="com.intellij.ide.util.TipDialog/0.23.1680.972@0.23.1680.972" timestamp="1583267441907" />
     <state x="389" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582572971094">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

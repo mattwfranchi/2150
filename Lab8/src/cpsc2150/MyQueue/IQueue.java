@@ -15,7 +15,7 @@ public interface IQueue<T> {
 
     /**
      * @pre constructor has been run, leaving the queue in a usable state
-     * @pre x is an Integer
+     * @pre x is an Integer AND depth < MAX_DEPTH
      * @param x Integer value to be added to the queue
      * @post x is added at the end of the queue
      */
@@ -40,10 +40,11 @@ public interface IQueue<T> {
 
     /**
      * @pre queue has >= 1 elements
-     * @return number at the front of the queue
+     * @return value at the front of the queue
      * @post queue is unchanged
      */
-    default T peek(){
+    default T peek()
+    {
         T el = pop();
         add(el);
         for(int n = 0; n < size()-1; n++){
@@ -55,10 +56,11 @@ public interface IQueue<T> {
 
     /**
      * @pre queue has >=1 elements
-     * @return number at the end of the queue
+     * @return value at the end of the queue
      * @post queue is unchanged
      */
-    default T endOfQueue(){
+    default T endOfQueue()
+    {
         T el = null;
         for(int n = 1; n <= size(); n++){
             if(n == size()){
@@ -75,11 +77,12 @@ public interface IQueue<T> {
 
     /**
      * @pre the position is within the current range of the queue
-     * @param x the number to be inserted
-     * @param pos the position to insert the number
-     * @post specified number is inserted into the specified position of the queue
+     * @param x the value to be inserted
+     * @param pos the position to insert the value
+     * @post specified value is inserted into the specified position of the queue
      */
-    default void insert(T x, int pos){
+    default void insert(T x, int pos)
+    {
         int size = size()+1;
         for(int n = 1; n <= size; n++) {
             if (n == pos) {
@@ -94,11 +97,12 @@ public interface IQueue<T> {
     /**
      * @pre queue has >=1 elements
      * @param pos position to remove from queue
-     * @return the number that was removed
+     * @return the value that was removed
      * @post the queue is one element smaller
      * @post all elements after the removed element are shifted left
      */
-    default T remove(int pos){
+    default T remove(int pos)
+    {
         T el = null;
         int size = size();
         for(int n = 1; n <= size; n++){
@@ -115,10 +119,11 @@ public interface IQueue<T> {
     /**
      * @pre queue has >=1 elements
      * @param pos position to get from queue
-     * @return number stored at the specified position in the queue
+     * @return value stored at the specified position in the queue
      * @post queue is unchanged
      */
-    default T get(int pos){
+    default T get(int pos)
+    {
         T el = null;
         for(int n = 1; n <= size(); n++){
             if(n == pos){

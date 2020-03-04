@@ -1,12 +1,13 @@
 package cpsc2150.MyQueue;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by mwfranc on 3/3/20.
  */
-public class TestArrayQueue
+public class TestListQueue
 {
     /**
      * @post MakeAQueue() = new IQueue<Integer></Integer>
@@ -16,7 +17,7 @@ public class TestArrayQueue
     private IQueue<Integer>MakeAQueue()
     {
         IQueue<Integer> Q;
-        Q = new ArrayQueue();
+        Q = new ListQueue();
         return Q;
     }
 

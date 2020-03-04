@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60a8350-3df0-4f1c-bbfc-a1eedeea8370" name="Default" comment="added makefile">
-      <change afterPath="$PROJECT_DIR$/../ConnectX_P2/src/makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/test/cpsc2150/MyQueue/TestListQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/BoardPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/IGameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/lib/junit-4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/production/Lab5/cpsc2150/MyQueue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/out/production/Lab5/cpsc2150/MyQueue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/production/Lab5/cpsc2150/MyQueue/IQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/out/production/Lab5/cpsc2150/MyQueue/IQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/production/Lab5/junit-4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/out/test/Lab5/cpsc2150/MyQueue/TestArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/out/test/Lab5/cpsc2150/MyQueue/TestArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/src/cpsc2150/MyQueue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/cpsc2150/MyQueue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/src/cpsc2150/MyQueue/IQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/cpsc2150/MyQueue/IQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/test/cpsc2150/MyQueue/TestArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/test/cpsc2150/MyQueue/TestArrayQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -306,6 +308,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582651785983</updated>
       <workItem from="1582719052442" duration="4212000" />
+      <workItem from="1583270441925" duration="282000" />
+      <workItem from="1583279873555" duration="434000" />
+      <workItem from="1583330913401" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="added makefile">
       <created>1582722928094</created>

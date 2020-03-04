@@ -1,16 +1,28 @@
+
+
 DIR = cpsc2150/MyQueue/
 JC = javac
 JVM = java
-NAMES = IQueue.java ArrayQueue.java ListQueue.java QueueApp.java AbsQueue.java StringQueueApp.java
-CLASSES = IQueue.class ArrayQueue.class ListQueue.class QueueApp.class AbsQueue.class StringQueueApp.class
-default: $(addprefix ${DIR}, ${NAMES})
-	$(JC) -Xlint:unchecked $(addprefix ${DIR}, ${NAMES})
+NAMES = $(wildcard ${DIR}/*.java)
+CLASSES = $(patsubst %.java, %.class, ${NAMES})
 
-runInt: $(addpredix ${DIR}, ${CLASSES})
-	$(JVM) cpsc2150.MyQueue.QueueApp
+default: ${NAMES}
+	$(JC) ${NAMES}
 
-runString: $(addpredix ${DIR}, ${CLASSES})
-	$(JVM) cpsc2150.MyQueue.StringQueueApp
+runInt: ${CLASSES}
+	$(JVM) cpsc2150.myQueue.QueueApp
+
+runString: ${CLASSES}
+    $(JVM) cpsc2150.myQueue.StringQueueApp
+
+test: ${NAMES}
+    $(JC) ${NAMES}
+
+testArr: ${CLASSES}
+    $(JVM) cpsc2150.myQueue.testArrayQueue
+
+testList: ${CLASSES}
+    $(JVM) cpsc2150.myQueue.testListQueue
 
 clean:
-	$(RM) $(addprefix ${DIR}, ${CLASSES})
+	$(RM) ${CLASSES}

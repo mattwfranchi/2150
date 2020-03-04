@@ -38,7 +38,8 @@ public class ArrayQueue<T> extends AbsQueue<T> {
      */
     public T pop(){
         T x = myQ[0];
-        for(int n = 1; n < depth; n++){
+        for(int n = 1; n < depth; n++)
+        {
             myQ[n-1] = myQ[n];
         }
         depth--;
