@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/AbsGameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/AbsGameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/BoardPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoardMem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoardMem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/IGameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +173,7 @@
       <workItem from="1584976205103" duration="8558000" />
       <workItem from="1585058154610" duration="6813000" />
       <workItem from="1585068282153" duration="31000" />
-      <workItem from="1585071102849" duration="8133000" />
+      <workItem from="1585071102849" duration="8537000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -212,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582863883493</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished Project 3">
+      <created>1585080104822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585080104822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +221,8 @@
     <MESSAGE value="continued implemenation rev6" />
     <MESSAGE value="continued implemenation rev9" />
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="Finished Project 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Project 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Project_Structure" timestamp="1582590725107">
@@ -251,10 +250,11 @@
     <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582836955345" />
     <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823574413" />
     <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1584541195057" />
-    <state x="380" y="127" key="CommitChangelistDialog2" timestamp="1582863883247">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="579" y="169" key="CommitChangelistDialog2" timestamp="1585080103923">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="380" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582863883247" />
+    <state x="579" y="169" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1585080103923" />
     <state x="753" y="309" key="FileChooserDialogImpl" timestamp="1585068293638">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -315,10 +315,11 @@
     <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1582560305738" />
     <state x="500" y="141" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565826525" />
     <state x="328" y="121" key="SettingsEditor/0.23.1680.972@0.23.1680.972" timestamp="1583267492935" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1582863885139">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="670" y="353" key="Vcs.Push.Dialog.v2" timestamp="1585080107550">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582863885139" />
+    <state x="670" y="353" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585080107550" />
     <state x="623" y="310" key="chooseDestDirectoryDialog" timestamp="1582559001012">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
