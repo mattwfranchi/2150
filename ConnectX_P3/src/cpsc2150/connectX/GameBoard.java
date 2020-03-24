@@ -11,6 +11,7 @@ public class GameBoard extends AbsGameBoard implements IGameBoard {
      * @correspondence (number of rows) = numRows
      * @correspondence (number of columns) = numCols
      * @correspondence (number of tokens needed to win) = numToWin
+     * @correspondence (board) is a 2-d array of characters of size numRows x numCols
      *
      * @invariant numRows >= minNumRows AND numRows <= maxNumRows
      * @invariant numCols >= minNumCols AND numCols <= maxNumCols
@@ -18,6 +19,12 @@ public class GameBoard extends AbsGameBoard implements IGameBoard {
      *
      * @invariant player needs numToWin tokens in horizontal, vertical, or diagonal succession to win
      * @invariant board must be of size numRows x numCols, with (numRows x NumCols) possible entries
+     *
+     * @invariant the array board should be cleared after each game
+     * @invariant board should be initialized with all blank spaces
+     * @invariant tokens cannot be placed in a full column
+     * @invariant board can only store one token per position
+     *
      */
 
 

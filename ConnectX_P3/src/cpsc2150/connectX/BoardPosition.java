@@ -60,7 +60,7 @@ public class BoardPosition {
      */
     @Override
     public String toString() {
-        return "(" + Character.forDigit(row, 10) + ", " + Character.forDigit(col, 10) + ")";
+        return "(" + Integer.toString(row) + ", " + Integer.toString(col) + ")";
     }
 
 

@@ -21,7 +21,6 @@ public class GameScreen {
     /**
      * @invariant player 1 always goes first
      * @invariant gameBoard board is initialized to all empty chars [' ']
-     * @correspondence gameBoard = board
      */
     private static char player;
 
@@ -53,23 +52,30 @@ public class GameScreen {
         Scanner inputHandle = new Scanner(System.in);
         System.out.printf("Player %c, what column do you want to place your marker in? \n", player);
         int column = inputHandle.nextInt();
+        boolean correctFlag = false;
+        while(!correctFlag)
+        {
+            // check for negative column number
+            if(column < 0){
+                System.out.println("Column cannot be less than 0. Try again. ");
+                column = askForCol();
+            }
 
-        // check for negative column number
-        while(column < 0){
-            System.out.println("Column cannot be less than 0. Try again. ");
-            column = askForCol();
-        }
+            // check for out of range column number (>)
+            else if(column > gameBoard.getNumColumns() - 1){
+                System.out.printf("Column cannot be greater than %d. Try again. \n",gameBoard.getNumColumns()-1);
+                column = askForCol();
+            }
 
-        // check for out of range column number (>)
-        while(column > gameBoard.getNumColumns() - 1){
-            System.out.printf("Column cannot be greater than %d. Try again. \n",gameBoard.getNumColumns()-1);
-            column = askForCol();
-        }
-
-        // check that column can accept another token
-        while(!gameBoard.checkIfFree(column)){
-            System.out.printf("Column %d is full. Try again. \n", column);
-            column = askForCol();
+            // check that column can accept another token
+            else if(!gameBoard.checkIfFree(column)){
+                System.out.printf("Column %d is full. Try again. \n", column);
+                column = askForCol();
+            }
+            else
+            {
+                correctFlag = true;
+            }
         }
         return column;
     }
@@ -175,6 +181,7 @@ public class GameScreen {
                     }
                 }
 
+                // player tokens processing
                 char Token;
                 for(int n = 1; n <= numPlayers; n++){
 
@@ -297,20 +304,4 @@ public class GameScreen {
         }
 
     }
-
-
-// TO DO
-    // Implement default method for IsPlayerAtPos -                         check
-    // Utilize IsPlayerAtPos when more effective relative to WHatsAtPos -   check
-    // Should checkforWin be a secondary method?
-    // Run thorough tests
-    // Make sure min and max numbers are being utilized                     check
-    // Do my classes have invariants?
-    // Did I add correspondences?
-    // Add more functional / non-functional requirements
-    // Cross-reference my output with sample output                         check
-
-
-
-
 }

@@ -15,7 +15,6 @@ package cpsc2150.connectX;
  Defines:       (number of rows): Z
                 (number of columns): Z
                 (number of tokens needed to win) : Z
-                (token symbols for players) : char[]
                 board: Z x Z
 
  Constraints:   (number of rows) >= 3 AND (number of rows) <= 100
@@ -68,14 +67,17 @@ public interface IGameBoard {
         // make new BoardPosition at position where last token was inserted
         int firstEmptyRow = 0;
         BoardPosition pos = new BoardPosition(firstEmptyRow,c);
-
-        while(whatsAtPos(pos) != ' ')
+        // calculate the first empty row through iterative process
+        while(whatsAtPos(pos) != ' ' && firstEmptyRow < getNumRows())
         {
             pos = new BoardPosition(++firstEmptyRow,c);
         }
-
+        // dessired row is one below the first empty row
         int desiredRow = firstEmptyRow - 1;
-        char desiredToken = whatsAtPos(new BoardPosition(desiredRow,c));
+        // update position
+        pos = new BoardPosition(desiredRow,c);
+        // get the token currently at pos' location
+        char desiredToken = whatsAtPos(pos);
 
         // return true if ANY wins are registered
         return checkHorizWin(pos,desiredToken) || checkVertWin(pos, desiredToken)
