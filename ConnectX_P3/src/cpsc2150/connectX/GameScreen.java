@@ -1,5 +1,5 @@
 /* Matt Franchi | CPSC 2150 | Spring 2020
- * Project 2 : Implementing ConnectX
+ * Project 3 : ConnectX
  * File Description: GameScreen implementation code
  */
 
@@ -7,10 +7,17 @@ package cpsc2150.connectX;
 import java.util.Scanner;
 
 public class GameScreen {
+    public static final int minPlayers = 2;
+    public static final int maxPlayers = 10;
+
+
     // coding to the interface
     private static IGameBoard gameBoard;
-    private static String PlayerTokens = " ";
+    private static String PlayerTokens = "";
     private static int numPlayers = 2;
+    private static int gameMode = 0;
+
+
     /**
      * @invariant player 1 always goes first
      * @invariant gameBoard board is initialized to all empty chars [' ']
@@ -27,18 +34,13 @@ public class GameScreen {
      */
     private static void switchPlayer() {
         int currentIndex = PlayerTokens.indexOf(player);
-        if(currentIndex < numPlayers)
+        if(++currentIndex >= numPlayers)
         {
-            player = PlayerTokens.charAt(currentIndex+1);
-            System.out.println(player);
-        }
-        else
-        {
-            player = PlayerTokens.charAt(1);
+            currentIndex = 0;
         }
 
+        player = PlayerTokens.charAt(currentIndex);
     }
-
 
 
     /**
@@ -141,141 +143,172 @@ public class GameScreen {
             retryChoice = inputHandle.next().toUpperCase();
         }
 
-        // reset board
-        if(retryChoice.equals("Y")){ restart(); }
-
         return retryChoice.equals("N") ? 1 : 0;
     }
-
-    /**
-     * @pre haveTurn() loop has ended
-     * @pre endgameSequence function is being run
-     * @post re-initialize board to all empty spaces, set player to "X", haveTurn()
-     */
-    private static void restart(){
-        player = 'X';
-        // reinitialize gameBoard, running constructor code again
-    }
-
 
 
 // MAIN FUNCTION
 
     public static void main(String[] args){
-        Scanner inputHandle = new Scanner(System.in);
-        boolean correctFlag = false;
-        int numRows = 0, numCols = 0, numToWin = 0;
-
-        // numPlayers processing
-        while(!correctFlag) {
-
-            System.out.print("How many players? ");
-            numPlayers = inputHandle.nextInt();
-            if (numPlayers > GameBoard.maxPlayers) {
-                System.out.printf("Cannot be more than %d players. \n", GameBoard.maxPlayers);
-            } else if (numPlayers < GameBoard.minPlayers) {
-                System.out.printf("Must be at least %d players. \n", GameBoard.minPlayers);
-            } else {
-                correctFlag = true;
-            }
-        }
-
-        correctFlag = false;
-        // numRows processing
-        while (!correctFlag) {
-
-
-            System.out.print("How many rows should be on the board? ");
-            numRows = inputHandle.nextInt();
-            if(numRows > GameBoard.maxNumRows)
-            {
-                System.out.printf("Cannot be more than %d rows. \n",GameBoard.maxNumRows);
-            }
-            else if(numRows < GameBoard.minNumRows)
-            {
-                System.out.printf("Must be at least %d rows.\n",GameBoard.minNumRows);
-            }
-            else
-            {
-                correctFlag = true;
-            }
-        }
-
-        correctFlag = false;
-        while(!correctFlag) {
-
-            //numCols processing
-            System.out.print("How many columns should be on the board? ");
-            numCols = inputHandle.nextInt();
-            if (numCols > GameBoard.maxNumCols) {
-                System.out.printf("Cannot be more than %d columns. \n", GameBoard.maxNumCols);
-            } else if (numCols < GameBoard.minNumCols) {
-                System.out.printf("Must be at least %d rows. \n", GameBoard.minNumCols);
-            } else {
-                correctFlag = true;
-            }
-        }
-
-        correctFlag = false;
-        while(!correctFlag) {
-            //numToWin processing
-            System.out.print("How many in a row to win? ");
-            numToWin = inputHandle.nextInt();
-
-            if(numToWin > GameBoard.maxNumToWin) {
-                System.out.printf("Cannot be more than %d tokens in a row. \n", GameBoard.maxNumToWin);
-            }
-            else if(numToWin < GameBoard.minNumToWin) {
-                System.out.printf("Must be at least %d tokens in a row. \n", GameBoard.minNumToWin);
-            }
-            else if(numToWin > numRows) {
-                System.out.printf("Cannot be more than %d : number of rows in board. \n", numRows);
-            }
-            else if(numToWin > numCols) {
-                System.out.printf("Cannot be more than %d : number of columns in board. \n", numCols);
-            }
-            else
-            {
-                correctFlag = true;
-            }
-        }
-
-
-        // at this point, assume all user inputs are valid
-        gameBoard = new GameBoard(numRows,numCols,numToWin);
-
-        // player token processing
-        char Token;
-        for(int n = 1; n <= numPlayers; n++){
-
-            System.out.printf("Enter Player %d's token: ",n);
-            Token = inputHandle.next().charAt(0);
-            while(PlayerTokens.indexOf(Token) != -1)
-            {
-                System.out.printf("The token %c is already taken. \n",Token);
-                System.out.printf("Enter player %d's token: ",n);
-                Token = inputHandle.next().charAt(0);
-            }
-            PlayerTokens += Token;
-        }
-
-        player = PlayerTokens.charAt(1);
-        System.out.println(PlayerTokens);
-
-
         // run first instance of haveTurn to start while loop
-        int endFlag = haveTurn();
-        // continue running haveTurn until endFlag != 0 ; (0 = continue code)
+        int endFlag = 0;
+        boolean firstRun = true;
+        Scanner inputHandle = new Scanner(System.in);
+
         while(endFlag == 0){
+            if(firstRun)
+            {
+                boolean correctFlag = false;
+                int numRows = 0, numCols = 0, numToWin = 0;
+
+                // numPlayers processing
+                while(!correctFlag) {
+
+                    System.out.print("How many players? ");
+                    numPlayers = inputHandle.nextInt();
+                    if (numPlayers > maxPlayers) {
+                        System.out.printf("Cannot be more than %d players. \n", maxPlayers);
+                    } else if (numPlayers < minPlayers) {
+                        System.out.printf("Must be at least %d players. \n", minPlayers);
+                    } else {
+                        correctFlag = true;
+                    }
+                }
+
+                char Token;
+                for(int n = 1; n <= numPlayers; n++){
+
+                    System.out.printf("Enter Player %d's token: ",n);
+                    Token = inputHandle.next().toUpperCase().charAt(0);
+                    while(PlayerTokens.indexOf(Token) != -1)
+                    {
+                        System.out.printf("The token %c is already taken. \n",Token);
+                        System.out.printf("Enter Player %d's token: ",n);
+                        Token = inputHandle.next().toUpperCase().charAt(0);
+                    }
+                    PlayerTokens += Token;
+                }
+
+                // numRows processing
+                correctFlag = false;
+                while (!correctFlag) {
+
+
+                    System.out.print("How many rows should be on the board? ");
+                    numRows = inputHandle.nextInt();
+                    if(numRows > GameBoard.maxNumRows)
+                    {
+                        System.out.printf("Cannot be more than %d rows. \n",GameBoard.maxNumRows);
+                    }
+                    else if(numRows < GameBoard.minNumRows)
+                    {
+                        System.out.printf("Must be at least %d rows.\n",GameBoard.minNumRows);
+                    }
+                    else
+                    {
+                        correctFlag = true;
+                    }
+                }
+
+                correctFlag = false;
+                while(!correctFlag) {
+
+                    //numCols processing
+                    System.out.print("How many columns should be on the board? ");
+                    numCols = inputHandle.nextInt();
+                    if (numCols > GameBoard.maxNumCols)
+                    {
+                        System.out.printf("Cannot be more than %d columns. \n", GameBoard.maxNumCols);
+                    }
+                    else if (numCols < GameBoard.minNumCols)
+                    {
+                        System.out.printf("Must be at least %d rows. \n", GameBoard.minNumCols);
+                    }
+                    else {
+                        correctFlag = true;
+                    }
+                }
+
+                correctFlag = false;
+                while(!correctFlag) {
+                    //numToWin processing
+                    System.out.print("How many in a row to win? ");
+                    numToWin = inputHandle.nextInt();
+
+                    if(numToWin > GameBoard.maxNumToWin)
+                    {
+                        System.out.printf("Cannot be more than %d tokens in a row. \n", GameBoard.maxNumToWin);
+                    }
+                    else if(numToWin < GameBoard.minNumToWin)
+                    {
+                        System.out.printf("Must be at least %d tokens in a row. \n", GameBoard.minNumToWin);
+                    }
+                    else if(numToWin > numRows)
+                    {
+                        System.out.printf("Cannot be more than %d (number of rows on board). \n", numRows);
+                    }
+                    else if(numToWin > numCols)
+                    {
+                        System.out.printf("Cannot be more than %d : (number of column on board).\n", numCols);
+                    }
+                    else
+                    {
+                        correctFlag = true;
+                    }
+
+
+                }
+                // implementation processing
+                correctFlag = false;
+                while(!correctFlag)
+                {
+                    System.out.println("Which Implementation: Fast [F/f] or Memory Efficient [M/m]? ");
+                    gameMode = inputHandle.next().toUpperCase().charAt(0);
+                    if(gameMode != 'F' && gameMode != 'M')
+                    {
+                        System.out.println("Invalid argument. Try again.");
+                    }
+                    else
+                    {
+                        correctFlag = true;
+                    }
+            }
+
+
+                // at this point, assume all user inputs are valid
+                gameBoard = gameMode == 'F'? new GameBoard(numRows,numCols,numToWin) :
+                                                new GameBoardMem(numRows,numCols,numToWin);
+
+                // set player to first token
+                player = PlayerTokens.charAt(0);
+
+                // no longer first run
+                firstRun = false;
+
+            }
+
             endFlag = haveTurn();
             // endgame code; endFlag is updated to indicate restart (0) or exit game (1)
             if(endFlag != 0){
                 endFlag = endgameSequence(endFlag);
+                firstRun = true;
+                PlayerTokens = "";
             }
         }
+
     }
 
 
+// TO DO
+    // Implement default method for IsPlayerAtPos -                         check
+    // Utilize IsPlayerAtPos when more effective relative to WHatsAtPos -   check
+    // Should checkforWin be a secondary method?
+    // Run thorough tests
+    // Make sure min and max numbers are being utilized                     check
+    // Do my classes have invariants?
+    // Did I add correspondences?
+    // Add more functional / non-functional requirements
+    // Cross-reference my output with sample output                         check
 
 
 

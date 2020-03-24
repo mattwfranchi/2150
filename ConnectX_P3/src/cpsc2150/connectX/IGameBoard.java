@@ -1,5 +1,5 @@
 /* Matt Franchi | CPSC 2150 | Spring 2020
- * Project 2 : Implementing ConnectX
+ * Project 3 : ConnectX
  * File Description: GameBoard interface code
  */
 
@@ -7,27 +7,33 @@ package cpsc2150.connectX;
 
 /**
  GameBoard represents a 2 dimensional board with size (number of rows) * (number of columns)
- Indexing starts at xxx
+ Indexing starts at 0
 
  Initialization ensures:
- GameBoard only contains blank characters and board is of size (number of rows) x (number of columns)
+ GameBoard is initialized to an empty state and board is of size (number of rows) x (number of columns)
 
  Defines:       (number of rows): Z
                 (number of columns): Z
                 (number of tokens needed to win) : Z
-                (token symbol for player 1) : char
-                (token symbol for player 2) : char
-                board: 2-d array of chars (Z x Z)
+                (token symbols for players) : char[]
+                board: Z x Z
 
- Constraints:   (number of rows) > 0
-                (number of columns) > 0
-                (number of tokens needed to win) > 0
+ Constraints:   (number of rows) >= 3 AND (number of rows) <= 100
+                (number of columns) >= 3 AND (number of columns) <= 100
+                (number of tokens needed to win) >= 3 AND (number of tokens needed to win) <= 25
                 board has (number of rows) x (number of columns) entries
  */
 
 
 
 public interface IGameBoard {
+    public static final int minNumRows = 3;
+    public static final int minNumCols = 3;
+    public static final int minNumToWin = 3;
+
+    public static final int maxNumRows = 100;
+    public static final int maxNumCols = 100;
+    public static final int maxNumToWin = 25;
 
 
 
@@ -40,7 +46,16 @@ public interface IGameBoard {
      * @post board is unchanged
      *
      */
-    boolean checkIfFree(int c);
+    default boolean checkIfFree(int c) {
+        // numEmpty: keeps track of number of empty entries within column
+        int numEmpty = 0;
+        for (int r = 0; r < getNumRows(); r++) {
+            if (whatsAtPos(new BoardPosition(r,c)) == ' ') {
+                numEmpty++;
+            }
+        }
+        return numEmpty != 0;
+    }
 
 
     /**
@@ -49,12 +64,30 @@ public interface IGameBoard {
      * @return true if token addition resulted in win, false else
      * @post board is unchanged
      */
-    boolean checkForWin(int c);
+    default boolean checkForWin(int c){
+        // make new BoardPosition at position where last token was inserted
+        int firstEmptyRow = 0;
+        BoardPosition pos = new BoardPosition(firstEmptyRow,c);
+
+        while(whatsAtPos(pos) != ' ')
+        {
+            pos = new BoardPosition(++firstEmptyRow,c);
+        }
+
+        int desiredRow = firstEmptyRow - 1;
+        char desiredToken = whatsAtPos(new BoardPosition(desiredRow,c));
+
+        // return true if ANY wins are registered
+        return checkHorizWin(pos,desiredToken) || checkVertWin(pos, desiredToken)
+                || checkDiagWin(pos, desiredToken);
+
+    }
+
 
 
     /**
-     * @pre p is a valid player token AND 0 <= c <= 6
-     * @param p type of token to insert
+     * @pre p is a valid player token AND 0 <= c <= (number of columns)
+     * @param p  token to insert
      * @param c column to insert the token
      * @post token p is inserted in column c of board
      */
@@ -65,11 +98,29 @@ public interface IGameBoard {
      * @pre 0 <= pos.row <= (number of rows) AND 0 <= pos.col <= (number of columns)
      *      AND p is a valid player token
      * @param pos BoardPosition representing an entry on board
-     * @param p type of player token
+     * @param p player token
      * @post p is inserted at pos of board
      * @return true if horizontal win occurred after insert, false else
      */
-    boolean checkHorizWin(BoardPosition pos, char p);
+    default boolean checkHorizWin(BoardPosition pos, char p)
+    {
+        // initialize to blank
+        String rowTokens = "", Win = "";
+
+        int row = pos.getRow();
+
+        // create XWin, a string of numToWin player tokens
+        for (int n = 0; n < getNumToWin(); n++) {
+            Win += p;
+        }
+
+        // make string from row of board
+        for (int c = 0; c < getNumColumns(); c++) {
+            rowTokens += isPlayerAtPos(new BoardPosition(row,c),p)? p : ' ';
+        }
+
+        return rowTokens.contains(Win);
+    }
 
 
     /**
@@ -80,7 +131,24 @@ public interface IGameBoard {
      * @post p is inserted at pos of board
      * @return true if vertical win occurred after insert, false else
      */
-    boolean checkVertWin(BoardPosition pos, char p);
+    default boolean checkVertWin(BoardPosition pos, char p)
+    {
+        String columnTokens = "", Win = "";
+
+        int column = pos.getColumn();
+
+        // create XWin, a string of numToWin player tokens
+        for (int n = 0; n < getNumToWin(); n++) {
+            Win += p;
+        }
+
+        // make string from column of board
+        for (int r = 0; r < getNumRows(); r++) {
+            columnTokens+= isPlayerAtPos(new BoardPosition(r,column),p)? p : ' ';
+        }
+
+        return columnTokens.contains(Win);
+    }
 
 
     /**
@@ -88,10 +156,42 @@ public interface IGameBoard {
      *      AND p is a valid player token
      * @param pos BoardPosition representing an entry on board
      * @param p type of player token
-     * @post p is inserted at pos of board
+     * @post p is whatinserted at pos of board
      * @return true if diagonal win occurred after insert, false else
      */
-    boolean checkDiagWin(BoardPosition pos, char p);
+    default boolean checkDiagWin(BoardPosition pos, char p)
+    {
+        // initialize to blank
+        String posTokens = "", negTokens = "", Win = "";
+
+        // make copies of pos' row and column, store in positive (pos) and negative (neg) : named for slope
+        int posRow = pos.getRow(), negRow = pos.getRow();
+        int posCol = pos.getColumn(), negCol = pos.getColumn();
+
+
+        // create XWin, a string of numToWin player tokens
+        for (int n = 0; n < getNumToWin(); n++) {
+            Win += p;
+        }
+
+        // move down-left diagonally until we either hit the bottom row or the leftmost column
+        while(posRow > 0 && posCol > 0){ posRow --; posCol --; }
+        // move down-right diagonally until we either hit the bottom row or the rightmost column
+        while(negRow > 0  && negCol < getNumColumns()-1){ negRow --; negCol++; }
+
+        // read the up-right diagonal sequence from the board, store in posTokens
+        for(int r = posRow, c = posCol; r < getNumRows() && c < getNumColumns(); r++, c++){
+            posTokens += isPlayerAtPos(new BoardPosition(r,c),p)? p : ' ';
+        }
+
+        // read the down-right diagonal sequence from the board, store in negTokens
+        for(int r = negRow, c = negCol; r < getNumRows() && c > 0; r++, c--){
+            negTokens += isPlayerAtPos(new BoardPosition(r,c),p)? p : ' ';
+        }
+
+        // return true if ANY diagonal win occurred
+        return posTokens.contains(Win) || negTokens.contains(Win);
+    }
 
 
     /**
@@ -110,7 +210,10 @@ public interface IGameBoard {
      * @post board is unchanged
      * @return true if contents of board at pos == player, false else
      */
-    boolean isPlayerAtPos(BoardPosition pos, char player);
+    default boolean isPlayerAtPos(BoardPosition pos, char player)
+    {
+        return whatsAtPos(pos) == player;
+    }
 
 
     /**
@@ -124,7 +227,15 @@ public interface IGameBoard {
      *
      * @return true if all entries of board are filled with tokens, false else
      */
-    boolean checkTie();
+    default boolean checkTie() {
+        int filledCount = 0;
+        for (int c = 0; c < getNumColumns(); c++){
+            // increment filledCount if column c was full
+            filledCount += checkIfFree(c) ? 0 : 1;
+        }
+        // true if all columns are full, false else
+        return filledCount == getNumColumns();
+    }
 
     // PART II FUNCTIONS
 

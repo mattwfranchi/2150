@@ -1,5 +1,5 @@
 /* Matt Franchi | CPSC 2150 | Spring 2020
- * Project 2 : Implementing ConnectX
+ * Project 3 : ConnectX
  * File Description: BoardPosition implementation code
  */
 
@@ -79,7 +79,6 @@ public class BoardPosition {
         if (!(other instanceof BoardPosition)) { return false; }
 
         BoardPosition o = (BoardPosition) other;
-        System.out.printf("%d = %d? && %d = %d? \n", row, o.row, col, o.col);
 
         return row == o.row && col == o.col;
     }

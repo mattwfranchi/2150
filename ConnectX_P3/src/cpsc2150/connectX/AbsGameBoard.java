@@ -2,6 +2,10 @@ package cpsc2150.connectX;
 
 public abstract class AbsGameBoard implements IGameBoard {
     @Override
+    /**
+     * @pre IGameBoard-implementing object has been initialized
+     * @post toString = string of grid-like output for the game board
+     */
     public String toString() {
         String output = "";
 
@@ -11,7 +15,9 @@ public abstract class AbsGameBoard implements IGameBoard {
             for (int c = 0; c < getNumColumns(); c++) {
                 if (r == getNumRows()) {
                     // header line of output
+                    // handling single-digit columns
                     if(c > 9){ output += c + "|"; }
+                    // handling double-digit columns
                     else {output += " " + c + "|"; }
                 }
                 else{
