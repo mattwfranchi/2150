@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60a8350-3df0-4f1c-bbfc-a1eedeea8370" name="Default" comment="added makefile">
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/AbsCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/AbsMortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/ICustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/IMortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/IMortgageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/IMortgageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/Mortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/MortgageApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/MortgageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/MortgageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConnectX_P3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -306,7 +294,7 @@
       <workItem from="1583270441925" duration="282000" />
       <workItem from="1583279873555" duration="434000" />
       <workItem from="1583330913401" duration="52000" />
-      <workItem from="1585743964241" duration="1289000" />
+      <workItem from="1585743964241" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="added makefile">
       <created>1582722928094</created>
