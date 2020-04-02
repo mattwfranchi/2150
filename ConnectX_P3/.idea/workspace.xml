@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/ICustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/IMortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/IMortgageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/IMortgageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/Mortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/MortgageApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/MortgageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/cpsc2150/mortgages/MortgageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/.idea/ConnectX_P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/ConnectX_P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/out/production/ConnectX_P2/cpsc2150/connectX/AbsGameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/out/production/ConnectX_P2/cpsc2150/connectX/GameBoardMem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/out/production/ConnectX_P2/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/src/ConnectX_RequirementsReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/src/cpsc2150/connectX/AbsGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/src/cpsc2150/connectX/GameBoardMem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P4/src/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/Lab9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +59,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ConnectX_P4" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Issue.Navigation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Matt\Documents\GitHub\CU-CPSC2150" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -185,6 +205,7 @@
       <workItem from="1585068282153" duration="31000" />
       <workItem from="1585071102849" duration="8729000" />
       <workItem from="1585746276811" duration="3000" />
+      <workItem from="1585859877060" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -266,12 +287,12 @@
     </state>
     <state x="380" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582863883247" />
     <state x="579" y="169" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1585080103923" />
-    <state x="753" y="309" key="FileChooserDialogImpl" timestamp="1585068293638">
+    <state x="753" y="309" key="FileChooserDialogImpl" timestamp="1585859930508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1807" y="309" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1583264201198" />
     <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565905837" />
-    <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1585068293638" />
+    <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1585859930508" />
     <state width="1234" height="487" key="GridCell.Tab.0.bottom" timestamp="1585080648255">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
