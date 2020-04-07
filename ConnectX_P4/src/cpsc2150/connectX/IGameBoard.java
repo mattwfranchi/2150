@@ -106,22 +106,27 @@ public interface IGameBoard {
      */
     default boolean checkHorizWin(BoardPosition pos, char p)
     {
-        // initialize to blank
-        String rowTokens = "", Win = "";
-
+        // get row and column from pos
+        int col = pos.getColumn();
         int row = pos.getRow();
 
-        // create XWin, a string of numToWin player tokens
-        for (int n = 0; n < getNumToWin(); n++) {
-            Win += p;
+        // initialize successiveTokens to -1, because token at pos is counted twice (one for each loop)
+        int successiveTokens = -1;
+
+        // for loop to handle left direction; stop processing as soon as invalid token is encounter
+        for(int left = col; left >= 0 && isPlayerAtPos(new BoardPosition(row,left),p); left--)
+        {
+            successiveTokens ++;
         }
 
-        // make string from row of board
-        for (int c = 0; c < getNumColumns(); c++) {
-            rowTokens += isPlayerAtPos(new BoardPosition(row,c),p)? p : ' ';
+        // for loop to handle right direction; same behavior as left loop
+        for(int right = col; right < getNumColumns() && isPlayerAtPos(new BoardPosition(row,right),p); right ++)
+        {
+           successiveTokens ++;
         }
 
-        return rowTokens.contains(Win);
+        // return true if valid tokens meet or exceed the number of tokens needed to win
+        return successiveTokens >= getNumToWin();
     }
 
 
@@ -135,21 +140,25 @@ public interface IGameBoard {
      */
     default boolean checkVertWin(BoardPosition pos, char p)
     {
-        String columnTokens = "", Win = "";
+        // get row and column from pos
+        int col = pos.getColumn();
+        int row = pos.getRow();
 
-        int column = pos.getColumn();
+        int successiveTokens = -1;
 
-        // create XWin, a string of numToWin player tokens
-        for (int n = 0; n < getNumToWin(); n++) {
-            Win += p;
+        // for loop to handle up direction
+        for(int up = row; up < getNumRows() && isPlayerAtPos(new BoardPosition(up,col),p); up ++)
+        {
+            successiveTokens ++;
         }
 
-        // make string from column of board
-        for (int r = 0; r < getNumRows(); r++) {
-            columnTokens+= isPlayerAtPos(new BoardPosition(r,column),p)? p : ' ';
+        // for loop to handle down direction
+        for(int down = row; row >= 0 && isPlayerAtPos(new BoardPosition(down,col),p); down --)
+        {
+            successiveTokens ++;
         }
 
-        return columnTokens.contains(Win);
+        return successiveTokens >= getNumToWin();
     }
 
 
@@ -158,46 +167,61 @@ public interface IGameBoard {
      *      AND p is a valid player token
      * @param pos BoardPosition representing an entry on board
      * @param p type of player token
-     * @post p is whatinserted at pos of board
+     * @post p is inserted at pos of board
      * @return true if diagonal win occurred after insert, false else
      */
     default boolean checkDiagWin(BoardPosition pos, char p)
     {
-        // initialize to blank
-        String posTokens = "", negTokens = "", Win = "";
+        int col = pos.getColumn();
+        int row = pos.getRow();
 
-        // make copies of pos' row and column, store in positive (pos) and negative (neg) : named for slope
-        int posRow = pos.getRow(), negRow = pos.getRow();
-        int posCol = pos.getColumn(), negCol = pos.getColumn();
+        // offset by one because first token is counted by all  loops
+        int successiveTokens = -1;
 
-
-        // create XWin, a string of numToWin player tokens
-        for (int n = 0; n < getNumToWin(); n++) {
-            Win += p;
+        // two-variable for loop to handle up-right direction
+        for(int up = row, right = col; up < getNumRows() && right < getNumColumns()
+                && isPlayerAtPos(new BoardPosition(up,right),p); up++, right++)
+        {
+            successiveTokens ++;
         }
 
-        // move down-left diagonally until we either hit the bottom row or the leftmost column
-        while(posRow > 0 && posCol > 0){ posRow --; posCol --; }
-        // move down-right diagonally until we either hit the bottom row or the rightmost column
-        while(negRow > 0  && negCol < getNumColumns()-1){ negRow --; negCol++; }
-
-        // read the up-right diagonal sequence from the board, store in posTokens
-        for(int r = posRow, c = posCol; r < getNumRows() && c < getNumColumns(); r++, c++){
-            posTokens += isPlayerAtPos(new BoardPosition(r,c),p)? p : ' ';
+        // two-variable for loop to handle down-left direction
+        for(int down = row, left = col; down >= 0 && left >= 0
+                && isPlayerAtPos(new BoardPosition(down,left),p); down --, left --)
+        {
+            successiveTokens ++;
         }
 
-        // read the down-right diagonal sequence from the board, store in negTokens
-        for(int r = negRow, c = negCol; r < getNumRows() && c > 0; r++, c--){
-            negTokens += isPlayerAtPos(new BoardPosition(r,c),p)? p : ' ';
+        // return if up-right tokens are enough to win
+        if(successiveTokens >= getNumToWin())
+        {
+            return true;
         }
 
-        // return true if ANY diagonal win occurred
-        return posTokens.contains(Win) || negTokens.contains(Win);
+        // reset successive tokens
+        successiveTokens = -1;
+
+        // two-variable for loop to handle up-left direction
+        for(int up = row, left = col; up < getNumRows() && left >= 0
+                && isPlayerAtPos(new BoardPosition(up,left),p); up++, left--)
+        {
+            successiveTokens ++;
+        }
+
+        // two-variable for loop to handle down-right direction
+        for(int down = row, right = col; down >= 0 && right < getNumColumns()
+                && isPlayerAtPos(new BoardPosition(down,right),p); down --, right ++)
+        {
+            successiveTokens ++;
+        }
+
+
+        return successiveTokens >= getNumToWin();
     }
 
 
     /**
-     * @pre 0 <= pos.row <= (number of rows) AND 0 <= pos.col <= (number of columns)
+     * @pre 0 <= pos.row < (number of rows) AND 0 <= pos.col < (number of columns)
      * @param pos BoardPosition to index
      * @post board is unchanged AND whatsAtPos() = contents of inputted position on board
      * @return contents of pos of board
@@ -206,7 +230,7 @@ public interface IGameBoard {
 
 
     /**
-     * @pre 0 <= pos.row <= (number of rows) AND 0 <= pos.col <= (number of columns)
+     * @pre 0 <= pos.row < (number of rows) AND 0 <= pos.col < (number of columns)
      * @param pos BoardPosition to index
      * @param player token to check for
      * @post board is unchanged

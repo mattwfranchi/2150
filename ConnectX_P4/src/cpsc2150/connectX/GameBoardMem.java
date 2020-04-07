@@ -106,7 +106,10 @@ public class GameBoardMem extends AbsGameBoard implements IGameBoard  {
     // see if the key player's value list contains the inputted pos
     public boolean isPlayerAtPos(BoardPosition pos, char player)
     {
-        return board.get(player).contains(pos);
+        if(board.get(player) != null)
+            return board.get(player).contains(pos);
+        else
+            return false;
     }
 
     public int getNumRows(){ return numRows; }
