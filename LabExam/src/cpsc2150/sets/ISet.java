@@ -9,7 +9,7 @@ import java.util.*;
  * Constraints: [this contains no duplicate values]
  *
  */
-
+// generified
 public interface ISet<T> {
 	int MAX_SIZE = 100;
 

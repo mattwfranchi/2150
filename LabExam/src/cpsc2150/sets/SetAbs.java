@@ -1,7 +1,7 @@
 package cpsc2150.sets;
 
 import java.util.*;
-
+// generified
 public abstract class SetAbs<T> implements ISet<T> {
 
     public abstract void add(T val);

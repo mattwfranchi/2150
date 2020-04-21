@@ -17,6 +17,7 @@ public class ArraySet<T> extends SetAbs<T> implements ISet<T>
      */
     public ArraySet()
     {
+        // initialize as Object array, since all classes extend from Object
         set = (T[]) new Object[MAX_SIZE];
         depth = 0;
     }
@@ -34,10 +35,14 @@ public class ArraySet<T> extends SetAbs<T> implements ISet<T>
 
     public boolean contains(T val)
     {
+        // for-each to iterate through each element in the set
         for(T el: set)
         {
+            // return true if val equals the current element
             if(val.equals(el)) { return true; }
         }
+        // at this point, all elements of set have been processed,
+        // so we conclude that contains(val) == FALSE
         return false;
     }
 
