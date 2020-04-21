@@ -49,7 +49,7 @@ public interface ISet<T> {
     /**
      *
      * @param unionWith the set to union with
-     * @pre none
+     * @pre this.getSize() + unionWith.getSize() <= MAX_SIZE
      * @post this = #this U unionWith
      */
     default void union(ISet<T> unionWith)
@@ -71,7 +71,7 @@ public interface ISet<T> {
     default void intersect(ISet<T> intersectWith)
     {
         // temporary list to hold the intersecting values
-        List<T> intersections = new ArrayList<T>();
+        List<T> intersections = new ArrayList<>();
 
         // iterate through ISet<T> this until it is empty
         while(this.getSize() > 0)

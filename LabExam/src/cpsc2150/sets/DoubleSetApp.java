@@ -27,12 +27,19 @@ public class DoubleSetApp {
                 System.out.println("Set 2 is:");
                 System.out.println(set2.toString());
 
-                //union the sets together
-                set1.union(set2);
-
-                //print the union
-                System.out.println("The union is:");
-                System.out.println(set1.toString());
+                // PRECONDITION CHECK (ISet - union): this.getSize() + unionWith.getSize() <= MAX_SIZE
+                if((set1.getSize() + set2.getSize())> ISet.MAX_SIZE)
+                {
+                    System.out.println("\nUnable to compute: The union of these two sets will exceed " +
+                            "the maximum set capacity.");
+                }
+                else
+                {
+                    set1.union(set2);
+                    //print the union
+                    System.out.println("The union is:");
+                    System.out.println(set1.toString());
+                }
             }
             else if(input == 2){
                 //Option 2 is find the intersection of 2 sets
@@ -93,6 +100,7 @@ public class DoubleSetApp {
         System.out.println("Would you like to user a ListSet (1) or ArraySet (2)? ");
         int choice = Integer.parseInt(in.nextLine());
 
+        // make sure the user picks one of the two implementations
         while(choice != 1 && choice != 2)
         {
             System.out.println("Invalid choice. Please try again.");
@@ -100,6 +108,7 @@ public class DoubleSetApp {
             choice = Integer.parseInt(in.nextLine());
         }
 
+        // ternary operator to initialize with the desired implementation
         s = choice == 1? new ListSet<>() : new ArraySet<>();
 
         // add values to the set user enters q to stop entering values
@@ -109,6 +118,15 @@ public class DoubleSetApp {
             //we can assume if they did not enter a Q they did enter a number
             double addVal = Double.parseDouble(val);
 
+            // PRECONDITION CHECK (ISet.add): !contains(val)
+            if(s.contains(addVal))
+            {
+                // error message - no duplicates allowed
+                System.out.println("Your number is already in the set (no duplicates allowed). \n " +
+                        "Please enter another number not already in the set. \n");
+            }
+            else {  s.add(addVal); }
+
             // PRECONDITION CHECK (ISet.add): size < MAX_SIZE
             if(!(s.getSize() < ISet.MAX_SIZE))
             {
@@ -117,16 +135,6 @@ public class DoubleSetApp {
                 // return the full set
                 return s;
             }
-
-            // PRECONDITION CHECK (ISet.add): !contains(val)
-            if(s.contains(addVal))
-            {
-                // error message - no duplicates allowed
-                System.out.println("Your number is already in the set (no duplicates allowed). \n " +
-                        "Please enter another number not already in the set: ");
-            }
-            else {  s.add(addVal); }
-
 
             //get the next value before looping
             System.out.println("Enter a value to add to the set. Enter q to stop adding to the set");

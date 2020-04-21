@@ -1,5 +1,6 @@
 package cpsc2150.sets;
 
+
 /**
  * correspondences size = depth AND this = set
  * @invariants [set contains no duplicate values] AND depth >= 0
@@ -21,16 +22,15 @@ public class ArraySet<T> extends SetAbs<T> implements ISet<T>
     }
 
 
-    public void add(T val)
-    {
-        set[depth] = val;
-        depth++;
-    }
+    public void add(T val){ set[depth++] = val;}
 
-    public T remove()
-    {
-        return set[depth--];
-    }
+
+    // remove last node, decrement by 1
+    // --depth instead of depth-- because depth is incremented
+    // after each add
+    public T remove() { return set[--depth];}
+
+
 
     public boolean contains(T val)
     {
