@@ -2,18 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/cpsc2150/connectX/TestGameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/cpsc2150/connectX/TestGameBoardMem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/.idea/ConnectX_P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/ConnectX_P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/ConnectX_RequirementsReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/production/ConnectX_P2/ConnectX_RequirementsReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/production/ConnectX_P2/cpsc2150/connectX/AbsGameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/production/ConnectX_P2/cpsc2150/connectX/GameBoardMem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/production/ConnectX_P2/cpsc2150/connectX/GameScreen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/production/ConnectX_P2/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/test/ConnectX_P2/cpsc2150/connectX/TestGameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/out/test/ConnectX_P2/cpsc2150/connectX/TestGameBoardMem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/src/ConnectX_RequirementsReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/src/cpsc2150/connectX/AbsGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/src/cpsc2150/connectX/GameBoardMem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/src/cpsc2150/connectX/GameScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/src/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/test/cpsc2150/connectX/TestGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectX_P5/test/cpsc2150/connectX/TestGameBoardMem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/Lab9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/AbsCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/AbsMortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/ICustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/IMortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/IMortgageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/IMortgageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/Mortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/MortgageApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/MortgageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/MortgageView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectX_P2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectX_P2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoardMem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoardMem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/AbsGameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/AbsGameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoardMem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoardMem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cpsc2150/connectX/IGameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +89,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ConnectX_P5" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Matt\Documents\GitHub\CU-CPSC2150" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.TestGameBoardMem">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -293,7 +334,10 @@
       <workItem from="1586112803307" duration="6023000" />
       <workItem from="1586177992738" duration="2545000" />
       <workItem from="1586193595692" duration="8253000" />
-      <workItem from="1586264014588" duration="17049000" />
+      <workItem from="1586264014588" duration="17718000" />
+      <workItem from="1586434937630" duration="11000" />
+      <workItem from="1586472176829" duration="996000" />
+      <workItem from="1586903224616" duration="445000" />
     </task>
     <task id="LOCAL-00001" summary="continued implementation rev4">
       <created>1582561658323</created>
@@ -337,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585860066786</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Project 4">
+      <created>1586289296309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586289296309</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +401,8 @@
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="Finished Project 3" />
     <MESSAGE value="Created Project 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Project 4" />
+    <MESSAGE value="Finished Project 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Project 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Project_Structure" timestamp="1582590725107">
@@ -382,61 +434,61 @@
     <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582836955345" />
     <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823574413" />
     <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1584541195057" />
-    <state x="579" y="169" key="CommitChangelistDialog2" timestamp="1586289276787">
+    <state x="579" y="169" key="CommitChangelistDialog2" timestamp="1586289295557">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="380" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582863883247" />
-    <state x="579" y="169" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586289276787" />
-    <state x="753" y="309" key="FileChooserDialogImpl" timestamp="1585068293638">
+    <state x="579" y="169" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586289295557" />
+    <state x="753" y="309" key="FileChooserDialogImpl" timestamp="1586903668649">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1807" y="309" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1583264201198" />
     <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565905837" />
-    <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1585068293638" />
-    <state width="1234" height="400" key="GridCell.Tab.0.bottom" timestamp="1586287186714">
+    <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1586903668649" />
+    <state width="1234" height="486" key="GridCell.Tab.0.bottom" timestamp="1586291014118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506096" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582827866234" />
-    <state width="1234" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586287186714" />
-    <state width="1234" height="400" key="GridCell.Tab.0.center" timestamp="1586287186714">
+    <state width="1234" height="486" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586291014118" />
+    <state width="1234" height="486" key="GridCell.Tab.0.center" timestamp="1586291014118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506095" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582827866234" />
-    <state width="1234" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586287186714" />
-    <state width="1234" height="400" key="GridCell.Tab.0.left" timestamp="1586287186714">
+    <state width="1234" height="486" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586291014118" />
+    <state width="1234" height="486" key="GridCell.Tab.0.left" timestamp="1586291014118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506094" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582827866233" />
-    <state width="1234" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586287186714" />
-    <state width="1234" height="400" key="GridCell.Tab.0.right" timestamp="1586287186714">
+    <state width="1234" height="486" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586291014118" />
+    <state width="1234" height="486" key="GridCell.Tab.0.right" timestamp="1586291014118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506096" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582827866234" />
-    <state width="1234" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586287186714" />
-    <state width="1234" height="486" key="GridCell.Tab.1.bottom" timestamp="1586283704752">
+    <state width="1234" height="486" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586291014118" />
+    <state width="1234" height="486" key="GridCell.Tab.1.bottom" timestamp="1586291014119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506098" />
-    <state width="1234" height="486" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586283704752" />
-    <state width="1234" height="486" key="GridCell.Tab.1.center" timestamp="1586283704752">
+    <state width="1234" height="486" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586291014119" />
+    <state width="1234" height="486" key="GridCell.Tab.1.center" timestamp="1586291014119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506097" />
-    <state width="1234" height="486" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586283704752" />
-    <state width="1234" height="486" key="GridCell.Tab.1.left" timestamp="1586283704752">
+    <state width="1234" height="486" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586291014119" />
+    <state width="1234" height="486" key="GridCell.Tab.1.left" timestamp="1586291014119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506097" />
-    <state width="1234" height="486" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586283704752" />
-    <state width="1234" height="486" key="GridCell.Tab.1.right" timestamp="1586283704752">
+    <state width="1234" height="486" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586291014119" />
+    <state width="1234" height="486" key="GridCell.Tab.1.right" timestamp="1586291014119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506097" />
-    <state width="1234" height="486" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586283704752" />
+    <state width="1234" height="486" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586291014119" />
     <state x="992" y="417" key="MultipleFileMergeDialog" timestamp="1582823586699">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -448,21 +500,21 @@
     <state x="500" y="141" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565826525" />
     <state x="500" y="141" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586020071721" />
     <state x="328" y="121" key="SettingsEditor/0.23.1680.972@0.23.1680.972" timestamp="1583267492935" />
-    <state x="670" y="353" key="Vcs.Push.Dialog.v2" timestamp="1585860071078">
+    <state x="670" y="353" key="Vcs.Push.Dialog.v2" timestamp="1586289298005">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582863885139" />
-    <state x="670" y="353" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585860071078" />
+    <state x="670" y="353" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586289298005" />
     <state x="623" y="310" key="chooseDestDirectoryDialog" timestamp="1582559001012">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="623" y="310" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582559001012" />
-    <state x="977" y="526" key="com.intellij.ide.util.TipDialog" timestamp="1586264014173">
+    <state x="977" y="526" key="com.intellij.ide.util.TipDialog" timestamp="1586903224234">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="641" y="394" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582864134115" />
     <state x="976" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823567819" />
-    <state x="977" y="526" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586264014173" />
+    <state x="977" y="526" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586903224234" />
     <state x="641" y="388" key="com.intellij.ide.util.TipDialog/0.23.1680.972@0.23.1680.972" timestamp="1583365087539" />
     <state x="1624" y="594" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586020088063">
       <screen x="0" y="0" width="2560" height="1400" />

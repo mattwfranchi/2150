@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ConnectX_P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConnectX_P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConnectX_RequirementsReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/ConnectX_RequirementsReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/AbsGameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/BoardPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/GameBoardMem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectX_P2/cpsc2150/connectX/IGameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/ConnectX_P2/cpsc2150/connectX/TestGameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/ConnectX_P2/cpsc2150/connectX/TestGameBoardMem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConnectX_RequirementsReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/AbsGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/BoardPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/ConnectXApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/ConnectXController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/ConnectXView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/GameBoardMem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/IGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/SetupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cpsc2150/connectX/SetupView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cpsc2150/connectX/TestGameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cpsc2150/connectX/TestGameBoardMem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/Lab9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/AbsCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/AbsMortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/ICustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/IMortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/IMortgageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/IMortgageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/Mortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/MortgageApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/MortgageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/cpsc2150/mortgages/MortgageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConnectX_P4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConnectX_P4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mortgage/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="284" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YG7fRxioZ7ayWitcp0ErfWYMlj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.ConnectXApp" />
+      <module name="ConnectX_P2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectX_P2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cpsc2150.connectX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cpsc2150.connectX" />
+      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.TestGameBoard" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameBoardMem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectX_P2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cpsc2150.connectX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cpsc2150.connectX" />
+      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.TestGameBoardMem" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameBoardMem.test_checkDiagWin_Challenging_algorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectX_P2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cpsc2150.connectX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cpsc2150.connectX" />
+      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.TestGameBoardMem" />
+      <option name="METHOD_NAME" value="test_checkDiagWin_Challenging_algorithmTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameBoardMem.test_checkDiagWin_Routine_downRightWinScenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectX_P2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cpsc2150.connectX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cpsc2150.connectX" />
+      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.TestGameBoardMem" />
+      <option name="METHOD_NAME" value="test_checkDiagWin_Routine_downRightWinScenario" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameBoardMem.test_checkDiagWin_Routine_upRightWinScenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectX_P2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cpsc2150.connectX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cpsc2150.connectX" />
+      <option name="MAIN_CLASS_NAME" value="cpsc2150.connectX.TestGameBoardMem" />
+      <option name="METHOD_NAME" value="test_checkDiagWin_Routine_upRightWinScenario" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.TestGameBoard" />
+      <item itemvalue="JUnit.TestGameBoardMem" />
+      <item itemvalue="JUnit.TestGameBoardMem.test_checkDiagWin_Challenging_algorithmTest" />
+      <item itemvalue="JUnit.TestGameBoardMem.test_checkDiagWin_Routine_downRightWinScenario" />
+      <item itemvalue="JUnit.TestGameBoardMem.test_checkDiagWin_Routine_upRightWinScenario" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestGameBoardMem" />
+        <item itemvalue="JUnit.TestGameBoard" />
+        <item itemvalue="JUnit.TestGameBoardMem.test_checkDiagWin_Routine_upRightWinScenario" />
+        <item itemvalue="JUnit.TestGameBoardMem.test_checkDiagWin_Challenging_algorithmTest" />
+        <item itemvalue="JUnit.TestGameBoardMem.test_checkDiagWin_Routine_downRightWinScenario" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c95c4195-3c8a-4df5-9de4-258b8022cf0b" name="Default Changelist" comment="" />
+      <created>1582557179071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582557179071</updated>
+      <workItem from="1582557180363" duration="3611000" />
+      <workItem from="1582564747396" duration="3939000" />
+      <workItem from="1582572103806" duration="4098000" />
+      <workItem from="1582583890869" duration="959000" />
+      <workItem from="1582663621079" duration="943000" />
+      <workItem from="1582667851145" duration="1938000" />
+      <workItem from="1582823562186" duration="4081000" />
+      <workItem from="1583267442501" duration="651000" />
+      <workItem from="1583331735610" duration="559000" />
+      <workItem from="1583365066947" duration="22000" />
+      <workItem from="1583367631432" duration="13253000" />
+      <workItem from="1584541188886" duration="7093000" />
+      <workItem from="1584555637952" duration="2159000" />
+      <workItem from="1584568334527" duration="6749000" />
+      <workItem from="1584624258064" duration="11074000" />
+      <workItem from="1584886178316" duration="3805000" />
+      <workItem from="1584976205103" duration="8558000" />
+      <workItem from="1585058154610" duration="6813000" />
+      <workItem from="1585068282153" duration="31000" />
+      <workItem from="1585071102849" duration="8729000" />
+      <workItem from="1585746276811" duration="3000" />
+      <workItem from="1585859933082" duration="1350000" />
+      <workItem from="1586019605226" duration="18947000" />
+      <workItem from="1586112803307" duration="6023000" />
+      <workItem from="1586177992738" duration="2545000" />
+      <workItem from="1586193595692" duration="8253000" />
+      <workItem from="1586264014588" duration="17718000" />
+      <workItem from="1586434937630" duration="11000" />
+      <workItem from="1586472176829" duration="996000" />
+      <workItem from="1586903671920" duration="2774000" />
+      <workItem from="1586967448622" duration="9024000" />
+      <workItem from="1587042793274" duration="9199000" />
+      <workItem from="1587483073488" duration="24000" />
+    </task>
+    <task id="LOCAL-00001" summary="continued implementation rev4">
+      <created>1582561658323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582561658323</updated>
+    </task>
+    <task id="LOCAL-00002" summary="continued implemenation rev9">
+      <created>1582677665400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582677665401</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Default Changelist">
+      <created>1582751670570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582751670570</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Default Changelist">
+      <created>1582863883492</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582863883493</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished Project 3">
+      <created>1585080104822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585080104822</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created Project 4">
+      <created>1585860066786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585860066786</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finished Project 4">
+      <created>1586289296309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586289296309</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="continued implementation rev4" />
+    <MESSAGE value="continued implemenation rev6" />
+    <MESSAGE value="continued implemenation rev9" />
+    <MESSAGE value="Default Changelist" />
+    <MESSAGE value="Finished Project 3" />
+    <MESSAGE value="Created Project 4" />
+    <MESSAGE value="Finished Project 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Project 4" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Project_Structure" timestamp="1582590725107">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1582590725107" />
+    <state x="670" y="253" key="#Project_Structure/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565908477" />
+    <state x="997" y="371" key="#Test" timestamp="1582565953197">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="997" y="371" key="#Test/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565953197" />
+    <state x="407" y="412" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586904621703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="267" y="309" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583387872904" />
+    <state x="407" y="412" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582564987106" />
+    <state x="407" y="412" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586904621703" />
+    <state x="1373" y="100" width="1094" height="1207" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586285856006">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1373" y="100" width="1094" height="1207" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586285856006" />
+    <state x="577" y="316" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582558443987">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="577" y="316" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582558443987" />
+    <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584541195057">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582836955345" />
+    <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823574413" />
+    <state x="1050" y="561" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1584541195057" />
+    <state x="579" y="169" key="CommitChangelistDialog2" timestamp="1586289295557">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="380" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582863883247" />
+    <state x="579" y="169" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586289295557" />
+    <state x="753" y="309" key="FileChooserDialogImpl" timestamp="1585068293638">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1807" y="309" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1583264201198" />
+    <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565905837" />
+    <state x="753" y="309" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1585068293638" />
+    <state width="1234" height="486" key="GridCell.Tab.0.bottom" timestamp="1587082036103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506096" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582827866234" />
+    <state width="1234" height="486" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1587082036103" />
+    <state width="1234" height="486" key="GridCell.Tab.0.center" timestamp="1587082036103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506095" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582827866234" />
+    <state width="1234" height="486" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1587082036103" />
+    <state width="1234" height="486" key="GridCell.Tab.0.left" timestamp="1587082036103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506094" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582827866233" />
+    <state width="1234" height="486" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1587082036103" />
+    <state width="1234" height="486" key="GridCell.Tab.0.right" timestamp="1587082036103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506096" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582827866234" />
+    <state width="1234" height="486" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1587082036103" />
+    <state width="1234" height="486" key="GridCell.Tab.1.bottom" timestamp="1587082036103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506098" />
+    <state width="1234" height="486" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1587082036103" />
+    <state width="1234" height="486" key="GridCell.Tab.1.center" timestamp="1587082036103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506097" />
+    <state width="1234" height="486" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1587082036103" />
+    <state width="1234" height="486" key="GridCell.Tab.1.left" timestamp="1587082036103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506097" />
+    <state width="1234" height="486" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1587082036103" />
+    <state width="1234" height="486" key="GridCell.Tab.1.right" timestamp="1587082036103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583417506097" />
+    <state width="1234" height="486" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1587082036103" />
+    <state x="992" y="417" key="MultipleFileMergeDialog" timestamp="1582823586699">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="992" y="417" key="MultipleFileMergeDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823586699" />
+    <state x="500" y="141" key="SettingsEditor" timestamp="1586020071721">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1582560305738" />
+    <state x="500" y="141" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565826525" />
+    <state x="500" y="141" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586020071721" />
+    <state x="328" y="121" key="SettingsEditor/0.23.1680.972@0.23.1680.972" timestamp="1583267492935" />
+    <state x="670" y="353" key="Vcs.Push.Dialog.v2" timestamp="1586289298005">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582863885139" />
+    <state x="670" y="353" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586289298005" />
+    <state x="623" y="310" key="chooseDestDirectoryDialog" timestamp="1582559001012">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="623" y="310" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582559001012" />
+    <state x="977" y="526" key="com.intellij.ide.util.TipDialog" timestamp="1587483074150">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="641" y="394" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582864134115" />
+    <state x="976" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823567819" />
+    <state x="977" y="526" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587483074150" />
+    <state x="641" y="388" key="com.intellij.ide.util.TipDialog/0.23.1680.972@0.23.1680.972" timestamp="1583365087539" />
+    <state x="1624" y="594" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586020088063">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1624" y="594" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1400@0.0.2560.1400" timestamp="1586020088063" />
+    <state x="389" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582572971094">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="389" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050@0.0.1680.1050" timestamp="1582572971094" />
+    <state x="29" y="321" key="new project wizard" timestamp="1587483095409">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="29" y="321" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1587483095409" />
+    <state x="602" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1583379580887">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="602" y="149" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583379580887" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1586282551979">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582565274091" />
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1586282551979" />
+    <state x="770" y="311" width="1021" height="902" key="search.everywhere.popup" timestamp="1586282113840">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1583378997667" />
+    <state x="770" y="311" width="1021" height="902" key="search.everywhere.popup/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1582823655294" />
+    <state x="770" y="311" width="1021" height="902" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1586282113840" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ConnectX_P2$Test.ic" NAME="Test Coverage Results" MODIFIED="1582662154778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ConnectX_P2$Tester.ic" NAME="Tester Coverage Results" MODIFIED="1582561475723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
